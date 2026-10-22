@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 # Contexte de build = racine du dépôt : docker build -f simulator/Dockerfile -t autoroutes-simulator .
-FROM maven:3.9-eclipse-temurin-25 AS build
+FROM maven:3.9-eclipse-temurin-26 AS build
 WORKDIR /src
 COPY simulator/pom.xml .
 RUN --mount=type=cache,target=/root/.m2 mvn -B -q dependency:go-offline
