@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 # Contexte de build = racine du dépôt (référentiel inclus) : docker build -f backend/Dockerfile -t autoroutes-backend .
-FROM maven:3.9-eclipse-temurin-25 AS build
+FROM maven:3.9-eclipse-temurin-26 AS build
 WORKDIR /src
 COPY backend/pom.xml .
 RUN --mount=type=cache,target=/root/.m2 mvn -B -q dependency:go-offline
