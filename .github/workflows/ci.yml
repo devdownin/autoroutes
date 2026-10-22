@@ -176,7 +176,7 @@ jobs:
           cp .env.example .env
           for profile in demo infra full monitoring auth tiles; do docker compose --profile "$profile" config -q; done
       - name: Image backend
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: backend/Dockerfile
@@ -184,7 +184,7 @@ jobs:
           cache-from: type=gha,scope=backend
           cache-to: type=gha,scope=backend,mode=max
       - name: Image simulateur
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: simulator/Dockerfile
@@ -192,7 +192,7 @@ jobs:
           cache-from: type=gha,scope=simulator
           cache-to: type=gha,scope=simulator,mode=max
       - name: Image frontend (démonstration)
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: frontend
           build-args: MODE=demo
