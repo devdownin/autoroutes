@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: supervision-simulator
+  main:
+    web-application-type: none
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:29092}
+    producer:
+      acks: all
+      properties:
+        enable.idempotence: true
+        linger.ms: 20
+
+simulator:
+  topic: toll-events
+  rate: ${SIMULATOR_RATE:80}
+  stations-file: ${REFERENTIEL_STATIONS_FILE:../referentiel/gares-logiques-proposition.csv}
+  aliases-file: ${REFERENTIEL_ALIASES_FILE:../referentiel/alias-gares.csv}

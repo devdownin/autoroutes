@@ -1,0 +1,127 @@
+# Alertes d'exploitation (phase 2, section 9). Les seuils reprennent ceux de l'application :
+# watermark périmé au-delà de 60 s, rattrapage au-delà de 5 000 messages, quarantaine > 1 %, entrée inconnue > 2 % des sorties.
+# Prometheus évalue et expose l'état (ALERTS) ; l'acheminement (e-mail, chat, astreinte) relève d'un Alertmanager à ajouter.
+groups:
+  - name: supervision-flux
+    rules:
+      - alert: BackendDown
+        expr: up{job="backend"} == 0
+        for: 1m
+        labels: { severity: critical }
+        annotations:
+          summary: Backend injoignable
+          description: Prometheus ne parvient plus à lire /actuator/prometheus depuis une minute.
+
+      - alert: DonneesPerimees
+        expr: toll_freshness_status == 2
+        for: 1m
+        labels: { severity: critical }
+        annotations:
+          summary: Aucun événement traité depuis plus de 60 s
+          description: Le flux Kafka est interrompu ou le topic est vide ; l'interface affiche « données périmées ».
+
+      - alert: RetardWatermark
+        expr: toll_watermark_lag_seconds > 60
+        for: 2m
+        labels: { severity: warning }
+        annotations:
+          summary: "Retard du watermark : {{ $value | humanizeDuration }}"
+          description: Les données affichées retardent de plus de 60 s sur l'horloge (producteur lent ou horloges des équipements).
+
+      - alert: RattrapageKafkaPersistant
+        expr: toll_consumer_lag > 5000 and deriv(toll_consumer_lag[5m]) >= 0
+        for: 5m
+        labels: { severity: warning }
+        annotations:
+          summary: "Retard du consommateur : {{ $value | humanize }} messages et pas de rattrapage"
+          description: Le backend ne suit pas le débit ; vérifier la file de l'écrivain et la charge CPU.
+
+      - alert: FileEcrivainSaturee
+        # Capacité par défaut : supervision.aggregation.queue-capacity = 50 000 ; seuil à 80 %.
+        expr: toll_writer_queue > 40000
+        for: 1m
+        labels: { severity: warning }
+        annotations:
+          summary: File de l'écrivain à plus de 80 %
+          description: La contre-pression ralentit la consommation Kafka.
+
+  - name: supervision-qualite
+    rules:
+      - alert: QuarantaineElevee
+        expr: |
+          sum(rate(toll_events_total{result="quarantined"}[10m]))
+            / clamp_min(sum(rate(toll_events_total[10m])), 1e-9) > 0.01
+        for: 10m
+        labels: { severity: warning }
+        annotations:
+          summary: Plus de 1 % des événements en quarantaine
+          description: Noms de gare inconnus de la table d'alias ; consulter /api/v1/diagnostic puis importer les alias manquants.
+
+      - alert: EntreeInconnueElevee
+        expr: |
+          sum(rate(toll_od_total{status="ENTRY_UNKNOWN"}[10m]))
+            / clamp_min(sum(rate(toll_od_total{status=~"RECORDED|ENTRY_UNKNOWN"}[10m])), 1e-9) > 0.02
+        for: 10m
+        labels: { severity: warning }
+        annotations:
+          summary: Plus de 2 % des sorties avec une gare d'entrée inconnue
+          description: Les flux origine-destination sont sous-estimés ; la gare d'entrée n'est pas dans la table d'alias.
+
+      - alert: OdOrigineConnueFaible
+        expr: toll_od_origin_known_ratio < 0.9
+        for: 15m
+        labels: { severity: warning }
+        annotations:
+          summary: Moins de 90 % des sorties en système fermé ont une gare d'entrée connue
+          description: Les flux origine-destination ne représentent qu'une part du trafic ; voir /api/v1/od/coverage (entryMissing, entryUnknown).
+
+      - alert: OdRapprochementEnEcart
+        expr: abs(toll_od_reconciliation_gap_ratio) > 0.005
+        for: 15m
+        labels: { severity: warning }
+        annotations:
+          summary: Écart de plus de 0,5 % entre les sorties des gares et les issues des flux origine-destination
+          description: Invariant rompu (somme des issues = sorties des gares). Attendu pendant l'heure qui suit une montée de version du point de reprise ; sinon, défaut de comptage à investiguer.
+
+      - alert: MessagesRejetes
+        expr: sum(rate(toll_events_rejected_total[5m])) > 0.1
+        for: 5m
+        labels: { severity: warning }
+        annotations:
+          summary: Messages invalides en continu
+          description: Plus d'un message rejeté toutes les 10 s ; voir le topic toll-events.rejected (motif en en-tête x-reason).
+
+  - name: supervision-persistance
+    rules:
+      - alert: PointDeReprisEnEchec
+        expr: increase(toll_checkpoints_failed_total[10m]) > 0
+        labels: { severity: critical }
+        annotations:
+          summary: Échec d'écriture du point de reprise
+          description: Base de données injoignable ? L'historique est conservé en mémoire et réessayé, mais un crash perdrait le rattrapage.
+
+      - alert: PointDeRepriseAncien
+        expr: toll_checkpoint_age_seconds > 300
+        for: 2m
+        labels: { severity: warning }
+        annotations:
+          summary: Dernier point de reprise vieux de plus de 5 minutes
+          description: La reprise après redémarrage rejouerait davantage de messages (intervalle nominal 60 s).
+
+  - name: supervision-ressources
+    rules:
+      - alert: TasJvmEleve
+        expr: sum(jvm_memory_used_bytes{area="heap"}) / sum(jvm_memory_max_bytes{area="heap"}) > 0.9
+        for: 5m
+        labels: { severity: warning }
+        annotations:
+          summary: Tas JVM à plus de 90 %
+          description: Fenêtre de déduplication ou état trop volumineux pour la mémoire allouée.
+
+      - alert: ClientsSseProchesDeLaLimite
+        expr: sse_clients > 450
+        for: 5m
+        labels: { severity: warning }
+        annotations:
+          summary: Plus de 450 clients SSE (limite 500)
+          description: Au-delà de 500, les nouvelles connexions reçoivent un 429.

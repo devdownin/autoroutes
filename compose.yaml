@@ -1,0 +1,355 @@
+# Pile complète de supervision des gares de péage.
+#
+#   cp .env.example .env                    # secrets locaux ; COMPOSE_PROFILES=full par défaut
+#   docker compose up -d --build            # pile applicative : simulateur → Kafka → backend → SSE → frontend
+#   → http://localhost:8080
+#
+# Profils (combinables : docker compose --profile full --profile monitoring up -d --build) :
+#   full        simulateur, Kafka (KRaft), PostgreSQL, backend, frontend de production (+ supervision recommandée)
+#   monitoring  Prometheus (métriques, 14 alertes) et Grafana (tableau de bord provisionné) ; à combiner avec « full »
+#   demo        frontend seul, flux SIMULÉ dans le navigateur, sans backend (port 8080 : exclusif avec « full »)
+#   infra       Kafka et PostgreSQL seuls, pour développer le backend en local
+#   auth        Keycloak (OIDC) ; avec SUPERVISION_PROFILE=auth dans .env, la connexion devient obligatoire
+#   tiles       tâche ponctuelle : produit le fond de carte et le graphe routier (accès réseau requis)
+#
+# Sécurité : seuls le frontend (8080) et, avec « monitoring », Grafana (3000) sont destinés à être joints ;
+# les autres ports ne sont publiés que sur 127.0.0.1 (diagnostic local). Conteneurs applicatifs en lecture seule,
+# sans privilèges ni capacités superflues, avec limites de mémoire et journaux en rotation.
+name: autoroutes
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: 10m
+    max-file: "3"
+
+# Conteneurs applicatifs : système de fichiers en lecture seule (écritures dans /tmp), aucune élévation de privilèges.
+x-hardened: &hardened
+  read_only: true
+  tmpfs:
+    - /tmp
+  security_opt:
+    - no-new-privileges:true
+  logging: *logging
+  restart: unless-stopped
+
+services:
+  # ───────────────────────── Application ─────────────────────────
+
+  frontend-live:
+    <<: *hardened
+    profiles: [full]
+    build:
+      context: ./frontend
+      args:
+        MODE: production
+        # Sans tuiles produites (profil « tiles »), définir ces variables vides dans .env : fond neutre, sans libellés.
+        VITE_BASEMAP_URL: ${VITE_BASEMAP_URL-pmtiles:///tiles/france.pmtiles}
+        VITE_MOTORWAYS_URL: ${VITE_MOTORWAYS_URL-pmtiles:///tiles/motorways.pmtiles}
+        VITE_GLYPHS_URL: ${VITE_GLYPHS_URL-/basemaps-assets/fonts/{fontstack}/{range}.pbf}
+        VITE_SPRITE_URL: ${VITE_SPRITE_URL-/basemaps-assets/sprites/v4/dark}
+    image: autoroutes-frontend:live
+    ports:
+      - "${FRONTEND_PORT:-8080}:8080"
+    volumes:
+      - ./cartographie/out/tiles:/usr/share/nginx/html/tiles:ro
+      - ./cartographie/out/basemaps-assets:/usr/share/nginx/html/basemaps-assets:ro
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+    depends_on:
+      backend:
+        condition: service_healthy
+    deploy:
+      resources:
+        limits: { memory: 128m }
+
+  backend:
+    <<: *hardened
+    profiles: [full]
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: autoroutes-backend:latest
+    ports:
+      - "127.0.0.1:${BACKEND_PORT:-8081}:8080"
+    environment:
+      DATABASE_URL: jdbc:postgresql://postgres:5432/supervision
+      DATABASE_USER: supervision
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:?définir POSTGRES_PASSWORD dans .env (voir .env.example)}
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      # Charge estimée des tronçons : chemin DANS le conteneur du graphe produit par le profil « tiles » (vide = inactive).
+      ASSIGNMENT_GRAPH_FILE: ${ASSIGNMENT_GRAPH_FILE:-}
+      # « auth » : connexion OIDC obligatoire (profil Compose « auth » pour Keycloak) ; vide : sans authentification.
+      SPRING_PROFILES_ACTIVE: ${SUPERVISION_PROFILE:-}
+      OIDC_CLIENT_SECRET: ${SUPERVISION_CLIENT_SECRET:-}
+      OIDC_AUTHORIZATION_URI: ${KEYCLOAK_PUBLIC_URL:-http://localhost:8180}/realms/supervision/protocol/openid-connect/auth
+      OIDC_TOKEN_URI: http://keycloak:8080/realms/supervision/protocol/openid-connect/token
+      OIDC_JWK_SET_URI: http://keycloak:8080/realms/supervision/protocol/openid-connect/certs
+    volumes:
+      - ./cartographie/out/graph:/app/graph:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      kafka-init:
+        condition: service_completed_successfully
+    # Arrêt propre : le point de reprise final est écrit avant la sortie.
+    stop_grace_period: 45s
+    deploy:
+      resources:
+        limits: { memory: 1g }
+
+  simulator:
+    <<: *hardened
+    profiles: [full]
+    build:
+      context: .
+      dockerfile: simulator/Dockerfile
+    image: autoroutes-simulator:latest
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      SIMULATOR_RATE: ${SIMULATOR_RATE:-80}
+      JAVA_TOOL_OPTIONS: -XX:MaxRAMPercentage=60
+    depends_on:
+      kafka-init:
+        condition: service_completed_successfully
+    deploy:
+      resources:
+        limits: { memory: 384m }
+
+  # Démonstration hors ligne : même frontend, flux simulé dans le navigateur (aucun backend).
+  frontend:
+    <<: *hardened
+    profiles: [demo]
+    build:
+      context: ./frontend
+      args:
+        MODE: demo
+    image: autoroutes-frontend:demo
+    ports:
+      - "${FRONTEND_PORT:-8080}:8080"
+    volumes:
+      - ./cartographie/out/tiles:/usr/share/nginx/html/tiles:ro
+      - ./cartographie/out/basemaps-assets:/usr/share/nginx/html/basemaps-assets:ro
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+    deploy:
+      resources:
+        limits: { memory: 128m }
+
+  # ───────────────────────── Données ─────────────────────────
+
+  kafka:
+    profiles: [infra, full]
+    image: apache/kafka:4.1.0
+    logging: *logging
+    restart: unless-stopped
+    ports:
+      # Listener EXTERNAL : développement du backend hors conteneur (localhost:29092).
+      - "127.0.0.1:${KAFKA_EXTERNAL_PORT:-29092}:29092"
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://:29092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,EXTERNAL://localhost:${KAFKA_EXTERNAL_PORT:-29092}
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      # ≥ 48 h : le démarrage à froid rejoue depuis minuit (phase 2, Q13).
+      KAFKA_LOG_RETENTION_HOURS: 72
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list >/dev/null"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+    volumes:
+      - kafka-data:/var/lib/kafka/data
+    stop_grace_period: 30s
+    deploy:
+      resources:
+        limits: { memory: 1536m }
+
+  kafka-init:
+    profiles: [infra, full]
+    image: apache/kafka:4.1.0
+    logging: *logging
+    depends_on:
+      kafka:
+        condition: service_healthy
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka:9092 --create --if-not-exists --topic toll-events --partitions 6 --replication-factor 1
+        /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka:9092 --create --if-not-exists --topic toll-events.rejected --partitions 3 --replication-factor 1 --config retention.ms=604800000
+    restart: "no"
+
+  postgres:
+    profiles: [infra, full]
+    image: postgres:17-alpine
+    logging: *logging
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_DB: supervision
+      POSTGRES_USER: supervision
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?définir POSTGRES_PASSWORD dans .env (voir .env.example)}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U supervision -d supervision"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    deploy:
+      resources:
+        limits: { memory: 1g }
+
+  # ───────────────────────── Supervision ─────────────────────────
+
+  prometheus:
+    profiles: [monitoring]
+    image: prom/prometheus:v3.5.0
+    logging: *logging
+    restart: unless-stopped
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+      - --storage.tsdb.retention.time=15d
+    ports:
+      - "127.0.0.1:${PROMETHEUS_PORT:-9090}:9090"
+    volumes:
+      - ./observability/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./observability/prometheus/alerts.yml:/etc/prometheus/alerts.yml:ro
+      - prometheus-data:/prometheus
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:9090/-/healthy"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    deploy:
+      resources:
+        limits: { memory: 512m }
+
+  alertmanager:
+    profiles: [monitoring]
+    image: prom/alertmanager:v0.28.1
+    logging: *logging
+    restart: unless-stopped
+    command:
+      - --config.file=/etc/alertmanager/alertmanager.yml
+      - --storage.path=/alertmanager
+    ports:
+      - "127.0.0.1:${ALERTMANAGER_PORT:-9093}:9093"
+    volumes:
+      - ./observability/alertmanager/alertmanager.yml:/etc/alertmanager/alertmanager.yml:ro
+      - alertmanager-data:/alertmanager
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:9093/-/healthy"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    deploy:
+      resources:
+        limits: { memory: 128m }
+
+  # Grafana est sous licence AGPL-3.0 : usage interne sans modification sans obligation particulière ; voir docs/docker.md.
+  grafana:
+    profiles: [monitoring]
+    image: grafana/grafana:12.2.0
+    logging: *logging
+    restart: unless-stopped
+    depends_on:
+      prometheus:
+        condition: service_healthy
+    ports:
+      - "${GRAFANA_BIND:-127.0.0.1}:${GRAFANA_PORT:-3000}:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:?définir GRAFANA_PASSWORD dans .env (voir .env.example)}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+      GF_AUTH_ANONYMOUS_ENABLED: "false"
+      GF_ANALYTICS_REPORTING_ENABLED: "false"
+      GF_ANALYTICS_CHECK_FOR_UPDATES: "false"
+      GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH: /var/lib/grafana/dashboards/supervision.json
+    volumes:
+      - ./observability/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./observability/grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana-data:/var/lib/grafana
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000/api/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    deploy:
+      resources:
+        limits: { memory: 512m }
+
+  # ───────────────────────── Authentification ─────────────────────────
+
+  # Keycloak (Apache-2.0) en mode développement avec import du royaume : suffisant pour valider la chaîne OIDC, pas pour la production
+  # (base H2 éphémère : royaume réimporté à chaque démarrage, HTTP). Voir docs/increment-5.md pour le passage en production.
+  keycloak:
+    profiles: [auth]
+    image: quay.io/keycloak/keycloak:26.4
+    logging: *logging
+    restart: unless-stopped
+    command: ["start-dev", "--import-realm"]
+    ports:
+      - "127.0.0.1:${KEYCLOAK_PORT:-8180}:8080"
+    environment:
+      KC_BOOTSTRAP_ADMIN_USERNAME: admin
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:?définir KEYCLOAK_ADMIN_PASSWORD dans .env (profil auth)}
+      KC_HOSTNAME: ${KEYCLOAK_PUBLIC_URL:-http://localhost:8180}
+      # Les appels serveur à serveur (jeton, clés) passent par keycloak:8080 : le nom d'hôte y est déduit de la requête.
+      KC_HOSTNAME_BACKCHANNEL_DYNAMIC: "true"
+      KC_HEALTH_ENABLED: "true"
+      PUBLIC_URL: ${PUBLIC_URL:-http://localhost:8080}
+      SUPERVISION_CLIENT_SECRET: ${SUPERVISION_CLIENT_SECRET:?définir SUPERVISION_CLIENT_SECRET dans .env (profil auth)}
+      KEYCLOAK_VIEWER_PASSWORD: ${KEYCLOAK_VIEWER_PASSWORD:?définir KEYCLOAK_VIEWER_PASSWORD dans .env (profil auth)}
+      KEYCLOAK_ADMIN_USER_PASSWORD: ${KEYCLOAK_ADMIN_USER_PASSWORD:?définir KEYCLOAK_ADMIN_USER_PASSWORD dans .env (profil auth)}
+    volumes:
+      - ./auth/realm-supervision.json:/opt/keycloak/data/import/realm-supervision.json:ro
+    healthcheck:
+      # Pas de curl dans l'image : sonde /dev/tcp sur le port de gestion (9000).
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/9000 && printf 'GET /health/ready HTTP/1.0\\r\\n\\r\\n' >&3 && grep -q '\"UP\"' <&3"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+    deploy:
+      resources:
+        limits: { memory: 1g }
+
+  # ───────────────────────── Tâche ponctuelle ─────────────────────────
+
+  # docker compose --profile tiles run --rm tiles   (variables : PROTOMAPS_BUILD obligatoire, voir cartographie/build.sh)
+  # Écrit cartographie/out/tiles et cartographie/out/basemaps-assets, servis ensuite par le frontend.
+  tiles:
+    profiles: [tiles]
+    build:
+      context: ./cartographie
+    image: autoroutes-cartographie:latest
+    environment:
+      PROTOMAPS_BUILD: ${PROTOMAPS_BUILD:-}
+      BBOX: ${TILES_BBOX:--5.5,41.2,10.0,51.3}
+      BASEMAP_MAXZOOM: ${TILES_MAXZOOM:-12}
+      # « regions » : extraits régionaux d'OpenStreetMap France (si Geofabrik n'est pas joignable) ; « single » : un extrait Geofabrik.
+      OSM_MODE: ${OSM_MODE:-single}
+      # Téléchargements parallèles en mode « regions ».
+      REGION_JOBS: ${REGION_JOBS:-8}
+    volumes:
+      - .:/repo
+    restart: "no"
+
+volumes:
+  kafka-data:
+  postgres-data:
+  prometheus-data:
+  alertmanager-data:
+  grafana-data:

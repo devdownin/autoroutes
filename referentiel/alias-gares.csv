@@ -1,0 +1,813 @@
+name;stationId
+Abbeville-Est Entree;GL-ECH-0139
+Abbeville-Est Sortie;GL-ECH-0139
+Abbeville-Nord Sortie;GL-ECH-0140
+Ablis;GL-ECH-0141
+Agde-Pezenas;GL-ECH-0142
+Agen;GL-ECH-0143
+Aigrefeuille;GL-ECH-0144
+Aiguebelette;GL-ECH-0145
+Aiguillon;GL-ECH-0146
+Aiton;GL-ECH-0147
+Aix Nord;GL-ECH-0148
+Aix Sud;GL-ECH-0149
+Alencon Nord;GL-ECH-0150
+Alencon Sud;GL-ECH-0151
+Allaines;GL-ECH-0152
+Allainville;GL-ECH-0153
+Allonzier;GL-ECH-0154
+Amberieu;GL-ECH-0155
+Amblainville BPV Sens 1;GL-BPV-0000
+Amblainville BPV Sens 2;GL-BPV-0000
+Amboise Chateau Renault;GL-ECH-0156
+Amiens-Nord Entree;GL-ECH-0157
+Amiens-Nord Sortie;GL-ECH-0157
+Amiens-Ouest Entree;GL-ECH-0158
+Amiens-Ouest Sortie;GL-ECH-0158
+Ancenis Bpv;GL-BPV-0001
+Ancenis Nord;GL-ECH-0159
+Ancenis Sud;GL-ECH-0160
+Annecy Centre;GL-ECH-0161
+Annecy Nord;GL-ECH-0162
+Antibes  Sud BPV;GL-BPV-0003
+Antibes Est Entrée 2/2;GL-ECH-0164
+Antibes Est Sortie;GL-ECH-0163
+Antibes Nord BPV;GL-BPV-0002
+Antibes Ouest Entrée;GL-ECH-0165
+Antibes Ouest Sortie;GL-ECH-0165
+Arlay;GL-ECH-0166
+Arles;GL-BPV-0004
+Arsy Entree;GL-ECH-0167
+Arsy Sortie;GL-ECH-0167
+Artenay;GL-ECH-0168
+Artix;GL-ECH-0169
+Arveyres;GL-BPV-0005
+Athies Entree;GL-ECH-0170
+Athies Sortie;GL-ECH-0170
+Auberives;GL-ECH-0171
+Aubignosc Est;GL-ECH-0172
+Aubignosc OUEST;GL-ECH-0173
+Audomarois A Entree Sens 1;GL-ECH-0174
+Audomarois A Sortie Sens 2;GL-ECH-0174
+Audomarois B Entree Sens 2;GL-ECH-0175
+Audomarois B Sortie Sens 1;GL-ECH-0175
+Aumale Est Entree;GL-ECH-0176
+Aumale Est Sortie;GL-ECH-0176
+Aumale Ouest Entree;GL-ECH-0177
+Aumale Ouest Sortie;GL-ECH-0177
+Auriol;GL-ECH-0178
+Auvours;GL-ECH-0179
+Auxerre Nord;GL-ECH-0180
+Auxerre Sud;GL-ECH-0181
+Auxy;GL-ECH-0182
+Avallon;GL-ECH-0183
+Avignon Nord;GL-ECH-0184
+Avignon Sud;GL-ECH-0185
+BPV Nord S1 (SAUGNACQ ET MURET);GL-BPV-0082
+BPV Nord S2 (SAUGNACQ ET MURET);GL-BPV-0083
+BPV Sud S1 (CASTETS);GL-BPV-0119
+BPV Sud S2 (CASTETS);GL-BPV-0120
+Baillargues;GL-BPV-0006
+Balan;GL-ECH-0186
+Balbigny;GL-ECH-0187
+Bandol BPV;GL-BPV-0007
+Bandol Echangeur;GL-ECH-0188
+Bapaume Entree;GL-ECH-0189
+Bapaume Sortie;GL-ECH-0189
+Baume-Les-Dames;GL-ECH-0190
+Bayonne Sud E;GL-ECH-0191
+Bayonne Sud S;GL-ECH-0192
+Beaufort;GL-ECH-0193
+Beaulieu Sur Layon;GL-BPV-0008
+Beaumont BPV Sens 1;GL-BPV-0009
+Beaumont BPV Sens 2;GL-BPV-0009
+Beaune Nord;GL-ECH-0194
+Beaune Sud;GL-ECH-0195
+Beaupont;GL-ECH-0196
+Beaurepaire;GL-ECH-0197
+Beautot Sortie;GL-ECH-0198
+Beauvais-Centre Entree 1;GL-ECH-0200
+Beauvais-Centre Entree 2;GL-ECH-0201
+Beauvais-Centre Sortie;GL-ECH-0199
+Beauvais-Nord Entree;GL-ECH-0202
+Beauvais-Nord Sortie;GL-ECH-0202
+Bellegarde Entrée;GL-ECH-0203
+Bellegarde Sortie;GL-ECH-0203
+Belleville S/Saone;GL-ECH-0204
+Benesse vers Bordeaux;GL-BPV-0010
+Benesse vers Espagne;GL-BPV-0011
+Berck Entree;GL-ECH-0205
+Berck Sortie;GL-ECH-0205
+Bernay;GL-ECH-0206
+Bersaillin;GL-BPV-0012
+Besancon Est;GL-ECH-0207
+Besancon Nord;GL-ECH-0208
+Besancon Ouest;GL-ECH-0209
+Beuzeville BPV Sens 1;GL-BPV-0013
+Beuzeville BPV Sens 2;GL-BPV-0013
+Beuzeville Echangeur Caen Entree;GL-ECH-0210
+Beuzeville Echangeur Rouen Entree;GL-ECH-0211
+Beuzeville Echangeur Rouen Sortie;GL-ECH-0211
+Beynost;GL-BPV-0014
+Beziers Cabrials;GL-BPV-0015
+Beziers-Ouest;GL-ECH-0212
+Biarritz E;GL-ECH-0213
+Biarritz S;GL-ECH-0214
+Bierre-Les-Semur;GL-ECH-0215
+Bignon;GL-BPV-0016
+Biriatou vers Bordeaux;GL-BPV-0017
+Biriatou vers Espagne;GL-BPV-0018
+Blere;GL-ECH-0216
+Blois;GL-ECH-0217
+Bolbec Entree;GL-ECH-0218
+Bolbec Sortie;GL-ECH-0218
+Bollene;GL-ECH-0219
+Bonneville Est Entrée;GL-ECH-0220
+Bonneville Est Sortie;GL-ECH-0220
+Bonneville Ouest S1;GL-ECH-0221
+Bonneville Ouest S2;GL-ECH-0222
+Boulay PSB Entree;GL-ECH-0223
+Boulay PSB Sortie;GL-ECH-0223
+Bourg Nord;GL-ECH-0225
+Bourg Sud;GL-ECH-0226
+Bourg-Achard Entree;GL-ECH-0224
+Bourg-Achard Sortie;GL-ECH-0224
+Bourges;GL-ECH-0227
+Bourgoin;GL-ECH-0228
+Bourgueil;GL-ECH-0229
+Bourneville Annexe Entree;GL-ECH-0230
+Bourneville Annexe Sortie;GL-ECH-0230
+Bourneville BPV Principale Sens 1;GL-BPV-0019
+Bourneville BPV Principale Sens 2;GL-BPV-0019
+Bouville;GL-BPV-0020
+Bram;GL-ECH-0231
+Brignoles;GL-ECH-0232
+Brionne;GL-ECH-0233
+Buchelay BPV Sens 1;GL-BPV-0021
+Buchelay BPV Sens 2;GL-BPV-0021
+Bulgneville;GL-ECH-0234
+Cabariot;GL-BPV-0022
+Cagnes Est;GL-ECH-0235
+Cagnes Ouest Nord;GL-ECH-0236
+Cagnes Ouest Sud;GL-ECH-0237
+Cagny Entree;GL-ECH-0238
+Cagny Sortie;GL-ECH-0238
+Cahors Nord;GL-ECH-0239
+Cahors Sud;GL-ECH-0240
+Capbreton Entree;GL-ECH-0241
+Capbreton Sortie Nord;GL-ECH-0242
+Capbreton Sortie Sud;GL-ECH-0243
+Capitou BPV;GL-BPV-0023
+Capvern;GL-ECH-0244
+Carcassonne Est;GL-ECH-0245
+Carcassonne Ouest;GL-ECH-0246
+Carnoules;GL-ECH-0247
+Cassis;GL-ECH-0248
+Castelnaudary;GL-ECH-0249
+Castelsarrasin;GL-ECH-0250
+Caussade;GL-ECH-0251
+Cavaillon;GL-ECH-0252
+Chalon Nord;GL-ECH-0253
+Chalon Sud;GL-ECH-0254
+Chamant Sens 1;GL-BPV-0024
+Chamant Sens 2;GL-BPV-0024
+Chambourcy Entree;GL-ECH-0255
+Chambourcy Sortie;GL-ECH-0255
+Chambray Est depuis RD910;GL-ECH-0256
+Chambray Est depuis RD943;GL-ECH-0257
+Chambray Ouest depuis RD943;GL-ECH-0258
+Chambray Ouest vers RD910;GL-ECH-0259
+Chamb�ry Nord;GL-ECH-0260
+Chanas;GL-ECH-0261
+Chantonnay;GL-ECH-0262
+Charmont-s-Barbuise Entree;GL-ECH-0263
+Charmont-s-Barbuise Sortie;GL-ECH-0263
+Chartres-Est Sens 1;GL-ECH-0264
+Chartres-Est Sens 2;GL-ECH-0264
+Chateau-Thierry Entree;GL-ECH-0265
+Chateau-Thierry Sortie;GL-ECH-0265
+Chatellerault-Nord;GL-ECH-0266
+Chatellerault-Sud;GL-ECH-0267
+Chatenois;GL-ECH-0268
+Chatillon-Laborde;GL-ECH-0269
+Chatuzange Barriere;GL-BPV-0025
+Chaumont-Semoutiers;GL-ECH-0270
+Chemery;GL-ECH-0271
+Chemille;GL-ECH-0272
+Chesnes;GL-ECH-0273
+Chevrieres Entree;GL-ECH-0274
+Chevrieres Sortie;GL-ECH-0274
+Chignin Barriere;GL-BPV-0026
+Chignin Bretelle;GL-ECH-0275
+Chignin Les Marches;GL-ECH-0276
+Choisey;GL-ECH-0277
+Cholet Nord;GL-ECH-0278
+Cholet Sud;GL-ECH-0279
+Clermont en Argonne Entree;GL-ECH-0280
+Clermont en Argonne Sortie;GL-ECH-0280
+Clermont-Barriere;GL-BPV-0027
+Cluses Amont S1;GL-ECH-0281
+Cluses Amont S2;GL-ECH-0282
+Cluses Aval S1;GL-ECH-0283
+Cluses Aval S2;GL-ECH-0284
+Cluses-Est BPV;GL-BPV-0028
+Colombey-Les-Belles;GL-ECH-0285
+Combronde;GL-ECH-0286
+Condrieu E;GL-ECH-0287
+Condrieu S;GL-ECH-0288
+Corze;GL-BPV-0029
+Cote picarde Entree;GL-ECH-0289
+Cote picarde Sortie;GL-ECH-0289
+Cottevrard BPV Entree Sens 2;GL-BPV-0030
+Cottevrard BPV Sortie Sens 1;GL-BPV-0030
+Coudoux S;GL-ECH-0290
+Courbes Entree;GL-ECH-0291
+Courbes Sortie;GL-ECH-0291
+Courcy BPV Sens 1;GL-BPV-0031
+Courcy BPV Sens 2;GL-BPV-0031
+Courtenay;GL-ECH-0292
+Coutevroult BPV sens 1;GL-BPV-0032
+Coutevroult BPV sens 2;GL-BPV-0032
+Coutras;GL-ECH-0293
+Crolles Barriere;GL-BPV-0033
+Crolles Brignoud;GL-ECH-0294
+Crottet;GL-ECH-0295
+Cruseilles A410;GL-ECH-0296
+Dijon Sud;GL-BPV-0035
+Dijon-Arc S/Tille;GL-ECH-0297
+Dijon-Crimolois;GL-BPV-0034
+Dole;GL-ECH-0298
+Dordives Est;GL-ECH-0299
+Dordives Ouest;GL-ECH-0300
+Dormans Entree;GL-ECH-0301
+Dormans Sortie;GL-ECH-0301
+Dourdan Nord;GL-ECH-0302
+Dourdan Sud;GL-ECH-0303
+Dozule BPV Nord Sens 1;GL-BPV-0036
+Dozule BPV Sud Sens 2;GL-BPV-0037
+Dozule Echangeur Entree;GL-ECH-0304
+Dozule Echangeur Sortie;GL-ECH-0304
+Durtal;GL-ECH-0305
+Dury BPV Entree Sens 2;GL-BPV-0038
+Dury BPV Sortie Sens 1;GL-BPV-0038
+Ecommoy;GL-ECH-0306
+Egletons;GL-ECH-0307
+Eloise;GL-ECH-0308
+Epretot BPV Sens 1;GL-BPV-0039
+Epretot BPV Sens 2;GL-BPV-0039
+Escrennes;GL-ECH-0309
+Essertaux Entree;GL-ECH-0310
+Essertaux Sortie;GL-ECH-0310
+Esvres;GL-ECH-0311
+Eurocentre;GL-ECH-0313
+Farebersviller Entree;GL-ECH-0314
+Farebersviller Sortie;GL-ECH-0314
+Fecamp Entree;GL-ECH-0315
+Fecamp Sortie;GL-ECH-0315
+Feillens;GL-ECH-0316
+Feurs;GL-ECH-0317
+Fleury-En-Biere;GL-BPV-0040
+Flixecourt Entree;GL-ECH-0318
+Flixecourt Sortie;GL-ECH-0318
+Fontaine Notre-Dame Entree;GL-ECH-0319
+Fontaine Notre-Dame Sortie;GL-ECH-0319
+Fontaine-Lariviere;GL-BPV-0041
+Fontainebleau;GL-ECH-0320
+Fontenay Centre;GL-ECH-0321
+Fontenay Ouest;GL-ECH-0322
+Fontenay sur Loing;GL-ECH-0323
+Foret De Troncais;GL-ECH-0324
+Forges;GL-ECH-0325
+Fresnes BPV Sens 1;GL-BPV-0042
+Fresnes BPV Sens 2;GL-BPV-0042
+Fresnes en Woevre Entree;GL-ECH-0328
+Fresnes en Woevre Sortie;GL-ECH-0328
+Fréjus Est;GL-ECH-0326
+Fréjus Ouest;GL-ECH-0327
+Futuroscope;GL-ECH-0329
+Gace 1;GL-ECH-0330
+Gace 2;GL-ECH-0331
+Gallargues;GL-ECH-0332
+Gannat;GL-BPV-0043
+Gare de peage Aire sur l'Adour Nord;GL-ECH-0333
+Gare de peage Aire sur l'Adour Sud;GL-ECH-0334
+Gare de peage Bazas;GL-ECH-0335
+Gare de peage Captieux;GL-ECH-0336
+Gare de peage Garlin;GL-ECH-0337
+Gare de peage Le Caloy;GL-ECH-0338
+Gare de peage Roquefort;GL-ECH-0339
+Gare de peage Theze;GL-ECH-0340
+Gares de peage de saint germain;GL-BPV-0107
+Garons;GL-ECH-0341
+Gauchy Entree;GL-ECH-0342
+Gauchy Sortie;GL-ECH-0342
+Genay;GL-ECH-0343
+Gendrey;GL-ECH-0344
+Gerzat-Ville;GL-ECH-0345
+Gignac;GL-BPV-0044
+Gondreville la Franche;GL-ECH-0346
+Grans;GL-ECH-0347
+Groissiat;GL-BPV-0045
+Guiche Entree;GL-ECH-0348
+Guiche Sortie;GL-ECH-0348
+Gye;GL-BPV-0046
+Hardivillers Entree;GL-ECH-0349
+Haudricourt BPV Sens 1;GL-BPV-0047
+Haudricourt BPV Sens 2;GL-BPV-0047
+Hermillon;GL-ECH-0350
+Herquelingue BPV Sens 1;GL-BPV-0048
+Herquelingue BPV Sens 2;GL-BPV-0048
+Heudebouville BPV Sens 1;GL-BPV-0049
+Heudebouville BPV Sens 2;GL-BPV-0049
+Heudebouville Echangeur Entree;GL-ECH-0351
+Heudebouville Echangeur Sortie;GL-ECH-0351
+Hochfelden Entree;GL-ECH-0352
+Hochfelden Ouest Entree;GL-ECH-0353
+Hochfelden Ouest Sortie;GL-ECH-0353
+Hochfelden Sortie;GL-ECH-0352
+Hordain BPV Entree sens 2;GL-BPV-0050
+Hordain BPV Sortie sens 1;GL-BPV-0050
+Incarville BPV Sens 1;GL-BPV-0051
+Incarville BPV Sens 2;GL-BPV-0051
+Isques Entree;GL-ECH-0354
+Isques Sortie;GL-ECH-0354
+Jarny Entree;GL-ECH-0355
+Jarny Sortie;GL-ECH-0355
+Joigny;GL-ECH-0356
+Joue En Charnie;GL-ECH-0357
+Jules Verne BPV Entree Sens 1;GL-BPV-0052
+Jules Verne BPV Sortie Sens 2;GL-BPV-0052
+L'Arrageois Entree;GL-ECH-0358
+L'Arrageois Sortie;GL-ECH-0358
+L'Isle d'Abeau Centre;GL-ECH-0359
+L'Isle-S/Le-Doubs;GL-ECH-0360
+L'Union vers Toulouse;GL-ECH-0362
+L'Union vers l'Union;GL-ECH-0361
+La Bachellerie Entree;GL-ECH-0363
+La Bachellerie Sortie;GL-ECH-0363
+La Barque BPV;GL-BPV-0053
+La Baume d'Hostun;GL-ECH-0364
+La Boisse;GL-BPV-0054
+La Boisse - Montluel;GL-ECH-0365
+La Brillanne;GL-ECH-0366
+La Ciotat BPV;GL-BPV-0055
+La Ciotat Ech.;GL-ECH-0367
+La Cotiere;GL-BPV-0056
+La Croix-Chalon;GL-ECH-0368
+La Ferte Bernard;GL-ECH-0369
+La Gravelle Bpv;GL-BPV-0057
+La Negresse vers Bordeaux;GL-BPV-0058
+La Negresse vers Espagne;GL-BPV-0059
+La Neuvillette Entree Sens 1;GL-ECH-0370
+La Neuvillette Sortie Sens 2;GL-ECH-0370
+La Reole;GL-ECH-0371
+La Roche Sur Yon;GL-BPV-0060
+La Saulce BPV;GL-BPV-0061
+La Thibaudiere;GL-ECH-0372
+La Tour du Pin;GL-ECH-0373
+La Tour du Pin Est;GL-ECH-0374
+La Turbie BPV;GL-BPV-0062
+La Turbie Echangeur;GL-ECH-0375
+La Verrie;GL-ECH-0376
+La Veuve Entree;GL-ECH-0377
+La Veuve Sortie;GL-ECH-0377
+Labastide Murat;GL-ECH-0378
+Laghet Entrée Tunnel Sens 1;GL-ECH-0379
+Laghet Sortie Tunnel Sens 2;GL-ECH-0379
+Lamotte-Beuvron;GL-ECH-0380
+Lancon;GL-BPV-0063
+Langon;GL-ECH-0381
+Langres Nord;GL-ECH-0382
+Langres Sud;GL-ECH-0383
+Lannemezan;GL-ECH-0384
+Laon Chambry Entree;GL-ECH-0385
+Laon Chambry Sortie;GL-ECH-0385
+Laval-Est;GL-ECH-0386
+Laval-Ouest;GL-ECH-0387
+Le Bethunois Entree;GL-ECH-0388
+Le Bethunois Sortie;GL-ECH-0388
+Le Boulou;GL-ECH-0389
+Le Canet De Meyreuil;GL-ECH-0390
+Le Cannet Des Maures;GL-ECH-0391
+Le Crozet;GL-BPV-0064
+Le Lievinois Entree;GL-ECH-0392
+Le Lievinois Sortie;GL-ECH-0392
+Le Mans Nord;GL-ECH-0393
+Le Mans Ouest;GL-ECH-0394
+Le Mans Sud;GL-ECH-0395
+Le Miroir;GL-ECH-0396
+Le Muy;GL-ECH-0397
+Le Perthus;GL-BPV-0065
+Le Tourneau;GL-ECH-0398
+Le Touvet;GL-ECH-0399
+Les Abrets;GL-ECH-0400
+Les Adrets Nord Entrée;GL-ECH-0401
+Les Adrets Nord Sortie;GL-ECH-0401
+Les Adrets Sud Entrée;GL-ECH-0402
+Les Adrets Sud Sortie;GL-ECH-0402
+Les Eprunes;GL-BPV-0066
+Les Essarts;GL-ECH-0403
+Les Herbiers;GL-ECH-0404
+Les Martres D'Artiere;GL-BPV-0067
+Lescar;GL-ECH-0405
+Lestelle;GL-BPV-0068
+Lestelle St Martory E;GL-ECH-0406
+Lestelle St Martory S;GL-ECH-0407
+Leucate;GL-ECH-0408
+Lezignan;GL-ECH-0409
+Lezoux;GL-ECH-0410
+Libourne Nord;GL-ECH-0411
+Lillers Entree;GL-ECH-0412
+Lillers Sortie;GL-ECH-0412
+Longue;GL-ECH-0413
+Loriol;GL-ECH-0414
+Loupershouse BPV Sens 1;GL-BPV-0069
+Loupershouse BPV Sens 2;GL-BPV-0069
+Luigny;GL-ECH-0415
+Lunel;GL-ECH-0416
+Lusse;GL-ECH-0417
+Macon Centre;GL-ECH-0418
+Macon Nord;GL-ECH-0419
+Macon Sud;GL-ECH-0420
+Magnant;GL-ECH-0421
+Manosque;GL-ECH-0422
+Manzat;GL-ECH-0423
+Maresche;GL-ECH-0424
+Marmande;GL-ECH-0425
+Marolles-Sur-Seine;GL-ECH-0426
+Marquion Entree;GL-ECH-0427
+Marquion Sortie;GL-ECH-0427
+Martel;GL-ECH-0428
+Masnieres Entree;GL-ECH-0429
+Masnieres Sortie;GL-ECH-0429
+Maurepas Entree;GL-ECH-0430
+Maurepas Sortie;GL-ECH-0430
+Mazeres Saverdun;GL-ECH-0431
+Mer;GL-ECH-0432
+Meru Entree;GL-ECH-0433
+Meru Sortie;GL-ECH-0433
+Meung Sur Loire;GL-ECH-0434
+Meyrargues BPV;GL-BPV-0070
+Mionnay;GL-ECH-0435
+Mirambeau;GL-ECH-0436
+Moirans Nord;GL-ECH-0437
+Moirans Sud;GL-ECH-0438
+Monaco Entree Tunnel Sens 1;GL-ECH-0439
+Monaco Sortie Tunnel Sens 2;GL-ECH-0439
+Monnaie Bpv;GL-BPV-0071
+Mont-Choisy Entree;GL-ECH-0440
+Mont-Choisy Sortie;GL-ECH-0440
+Montabon;GL-ECH-0441
+Montaigu;GL-ECH-0442
+Montauban Nord;GL-BPV-0072
+Montauban Sud;GL-ECH-0443
+Montbrison;GL-ECH-0444
+Montelimar Nord;GL-ECH-0445
+Montelimar Sud;GL-ECH-0446
+Montesson BPV Sens 1;GL-BPV-0073
+Montesson BPV Sens 2;GL-BPV-0073
+Montgiscard;GL-ECH-0447
+Montigny-Le-Roi;GL-ECH-0448
+Montlucon;GL-BPV-0074
+Montmarault;GL-ECH-0449
+Montmelian;GL-ECH-0450
+Montpellier Saint Jean De Vedas;GL-BPV-0075
+Montpon;GL-ECH-0451
+Montrejeau;GL-ECH-0452
+Montreuil BPV Sens 2;GL-BPV-0076
+Montreuil BPV sens 1;GL-BPV-0076
+Montreuil bretelle vers Paris Entree;GL-ECH-0453
+Montreuil bretelle vers Paris Sortie;GL-ECH-0453
+Montreuil bretelles vers Reims Entree;GL-ECH-0454
+Montreuil bretelles vers Reims Sortie;GL-ECH-0454
+Monts - Sorigny;GL-ECH-0455
+Mourmelon Entree;GL-ECH-0456
+Mourmelon Sortie;GL-ECH-0456
+Muret depuis Toulouse;GL-BPV-0077
+Muret vers Toulouse;GL-BPV-0078
+Mussidan Barriere;GL-BPV-0079
+Mussidan Est;GL-ECH-0457
+Mussidan Sud;GL-ECH-0458
+Myennes;GL-BPV-0080
+Nailloux;GL-ECH-0459
+Nangy;GL-BPV-0081
+Narbonne Est;GL-ECH-0460
+Narbonne Sud;GL-ECH-0461
+Necy Est;GL-ECH-0462
+Necy Ouest;GL-ECH-0463
+Nemours;GL-ECH-0464
+Neufchatel-Hardelot Entree;GL-ECH-0465
+Neufchatel-Hardelot Sortie;GL-ECH-0465
+Neuille Pont Pierre Sens 1;GL-ECH-0466
+Neuille Pont Pierre Sens 2;GL-ECH-0466
+Nimes Ouest;GL-ECH-0469
+Niort Est;GL-ECH-0470
+Niort Nord;GL-ECH-0471
+Niort Ouest;GL-ECH-0472
+Niort Sud;GL-ECH-0473
+Nitry;GL-ECH-0474
+Noeux-les-Mines Entree;GL-ECH-0475
+Noeux-les-Mines Sortie;GL-ECH-0475
+Noiretable;GL-ECH-0476
+Nuits-St-Georges;GL-ECH-0477
+Nîmes Centre;GL-ECH-0467
+Nîmes Est;GL-ECH-0468
+Olivet;GL-ECH-0478
+Ondres E;GL-ECH-0479
+Ondres S;GL-ECH-0480
+Orange Centre;GL-ECH-0481
+Orange Nord;GL-ECH-0482
+Orange Sud;GL-ECH-0483
+Orbec 1;GL-ECH-0484
+Orbec 2;GL-ECH-0485
+Orleans-Centre;GL-ECH-0486
+Orleans-Nord;GL-ECH-0487
+Ormes BPV Entree Sens 1;GL-BPV-0084
+Ormes BPV Sortie Sens 2;GL-BPV-0084
+Orthez;GL-ECH-0488
+PEAGE PONT NORMANDIE;GL-BPV-0088
+PEAGE PONT TANCARVILLE;GL-BPV-0089
+Pamiers;GL-BPV-0085
+Parigne L'Eveque;GL-ECH-0489
+Pas De Trets;GL-ECH-0490
+Pau Centre;GL-ECH-0491
+Perouges;GL-ECH-0492
+Perpignan Nord;GL-ECH-0493
+Perpignan Sud;GL-ECH-0494
+Pertuis Nord;GL-ECH-0495
+Pertuis Sud;GL-ECH-0496
+Peyrehorade;GL-ECH-0497
+Peyruis;GL-ECH-0498
+Phalsbourg Entree;GL-ECH-0499
+Phalsbourg Sortie;GL-ECH-0499
+Plateau Entree Sens 1;GL-ECH-0500
+Plateau Sortie Sens 2;GL-ECH-0500
+Podensac;GL-ECH-0501
+Poitiers-Nord;GL-ECH-0502
+Poitiers-Sud;GL-ECH-0503
+Poix-de-Picardie Entree;GL-ECH-0504
+Poix-de-Picardie Sortie;GL-ECH-0504
+Pons;GL-ECH-0505
+Pont D'Ain;GL-ECH-0506
+Pont de L'Etoile BPV;GL-BPV-0087
+Pont-Colbert BPV;GL-BPV-0086
+Pont-Colbert Bpv;GL-BPV-0086
+Pontcharrat;GL-ECH-0507
+Portes du Vignoble Entree;GL-ECH-0508
+Portes du Vignoble Sortie;GL-ECH-0508
+Pouilly-En-Auxois;GL-BPV-0090
+Pourrières Entrée;GL-ECH-0509
+Pourrières Sortie;GL-ECH-0509
+Puget Ville BPV;GL-BPV-0091
+Puget-sur-Argens;GL-ECH-0510
+Puttelange Entree Sens 2;GL-ECH-0511
+Puttelange Sortie Sens 1;GL-ECH-0511
+Puymorens A-PO;GL-BPV-0092
+Quetteville BPV Sens 1;GL-BPV-0093
+Quetteville BPV Sens 2;GL-BPV-0093
+Quincieux Barriere;GL-BPV-0094
+Remoulins;GL-ECH-0512
+Replonges;GL-ECH-0513
+Ressons Entree;GL-ECH-0514
+Ressons Sortie;GL-ECH-0514
+Restigne Bpv;GL-BPV-0095
+Riom;GL-ECH-0515
+Rives;GL-ECH-0516
+Robecourt;GL-ECH-0517
+Ronai BPV;GL-BPV-0096
+Roquemaure;GL-ECH-0518
+Rouesse Fontaine;GL-ECH-0519
+Roumois;GL-BPV-0097
+Roye Entree;GL-ECH-0520
+Roye Sortie;GL-ECH-0520
+Rueil-Malmaison Bpv;GL-BPV-0098
+Rumilly;GL-ECH-0521
+Sable La Fleche;GL-ECH-0522
+Saint Aubin;GL-ECH-0556
+Saint Christophe Bpv;GL-BPV-0105
+Saint Exupery;GL-BPV-0106
+Saint Gaudens;GL-ECH-0560
+Saint Genis;GL-ECH-0561
+Saint Genix sur Guiers;GL-ECH-0562
+Saint Germain;GL-ECH-0563
+Saint Germain Laval;GL-ECH-0564
+Saint Germain Les Vergnes;GL-BPV-0108
+Saint Gibrien Entree;GL-ECH-0566
+Saint Gibrien Sortie;GL-ECH-0566
+Saint Hilaire les Andresis;GL-ECH-0567
+Saint Isidore BPV Nord;GL-BPV-0109
+Saint Isidore BPV Sud;GL-BPV-0110
+Saint Isidore Ech Est Entrée;GL-ECH-0568
+Saint Isidore Ech Est Sortie;GL-ECH-0568
+Saint Isidore Ech Ouest Entrée;GL-ECH-0569
+Saint Isidore Ech Ouest Sortie;GL-ECH-0569
+Saint Jean D'Angely;GL-ECH-0570
+Saint Jean De Linieres Sens 1;GL-ECH-0571
+Saint Jean De Linieres Sens 2;GL-ECH-0571
+Saint Jean De Luz Sud E;GL-ECH-0572
+Saint Jean De Luz Sud S;GL-ECH-0573
+Saint Jean les Deux Jumeaux Entree;GL-ECH-0574
+Saint Jean les Deux Jumeaux Sortie;GL-ECH-0574
+Saint Jory;GL-ECH-0575
+Saint Julien Sancy;GL-ECH-0577
+Saint Marcellin;GL-ECH-0578
+Saint Martin De Crau;GL-BPV-0112
+Saint Martin de Bellevue A410;GL-BPV-0111
+Saint Maurice;GL-BPV-0113
+Saint Maximin;GL-ECH-0580
+Saint Paul Lez Durance;GL-ECH-0583
+Saint Pierre d'Albigny;GL-ECH-0584
+Saint Quentin Fallavier Barriere;GL-BPV-0115
+Saint Quentin Fallavier Bretelle;GL-ECH-0586
+Saint Quentin La Vallee Entree;GL-ECH-0587
+Saint Quentin La Vallee Sortie;GL-ECH-0587
+Saint Romain De Popey;GL-BPV-0116
+Saint Romain Sur Cher;GL-ECH-0590
+Saint Romain de Colbosc (ferme) Entree;GL-ECH-0588
+Saint Romain de Colbosc (ferme) Sortie;GL-ECH-0588
+Saint Romain de Colbosc (ouvert) Entree;GL-ECH-0589
+Saint Romain de Colbosc (ouvert) Sortie;GL-ECH-0589
+Saint Selve;GL-BPV-0117
+Saint Thibault;GL-ECH-0591
+Saint Witz Entree;GL-ECH-0592
+Saint Witz Sortie;GL-ECH-0592
+Saint etienne au Temple Entree;GL-ECH-0559
+Saint etienne au Temple Sortie;GL-ECH-0559
+Saint-Arnoult Bpv;GL-BPV-0103
+Saint-Avold A BPV Sens 1;GL-BPV-0104
+Saint-Avold A BPV Sens 2;GL-BPV-0104
+Saint-Avold B Entree;GL-ECH-0557
+Saint-Avold B Sortie;GL-ECH-0557
+Sainte Helene Barriere;GL-BPV-0118
+Sainte Hermine;GL-ECH-0593
+Sainte Marie Entree;GL-ECH-0594
+Sainte Marie Sortie;GL-ECH-0594
+Sainte Maure;GL-ECH-0596
+Sainte Menehould Entree;GL-ECH-0597
+Sainte Menehould Sortie;GL-ECH-0597
+Saintes;GL-ECH-0523
+Salbris;GL-ECH-0524
+Salies;GL-ECH-0525
+Salon Nord (entree);GL-ECH-0526
+Salon Nord (sortie);GL-ECH-0526
+Salon Ouest;GL-ECH-0527
+Salon Sud;GL-ECH-0528
+Salouel Entree;GL-ECH-0529
+Salouel Sortie;GL-ECH-0529
+Sames;GL-BPV-0099
+Santerre Entree;GL-ECH-0530
+Santerre Sortie;GL-ECH-0530
+Sarre-Union Entree;GL-ECH-0531
+Sarre-Union Sortie;GL-ECH-0531
+Sarreguemines Entree;GL-ECH-0532
+Sarreguemines Sortie;GL-ECH-0532
+Saverne Entree;GL-ECH-0533
+Saverne Sortie;GL-ECH-0533
+Savigny sur Clairis;GL-ECH-0534
+Schwindratzheim BPV Sens 1;GL-BPV-0100
+Schwindratzheim BPV Sens 2;GL-BPV-0100
+Scionzier Entrée;GL-ECH-0535
+Scionzier Sortie;GL-ECH-0535
+Sees Argentan 1;GL-ECH-0536
+Sees Est;GL-ECH-0537
+Sees Ouest;GL-ECH-0538
+Seiches sur le Loir;GL-ECH-0539
+Senas;GL-ECH-0540
+Senlis-Bonsecours Entree;GL-ECH-0541
+Senlis-Bonsecours Sortie;GL-ECH-0541
+Senlis-Chamant Entree;GL-ECH-0542
+Senlis-Chamant Sortie;GL-ECH-0542
+Sete;GL-ECH-0543
+Setques BPV Entree Sens 1;GL-BPV-0101
+Setques BPV Sortie Sens 2;GL-BPV-0101
+Seurre;GL-ECH-0544
+Seynod Sud;GL-ECH-0545
+Sigean;GL-ECH-0546
+Sisteron Nord;GL-ECH-0547
+Sisteron Sud;GL-ECH-0548
+Soirans;GL-ECH-0549
+Sommesous Entree;GL-ECH-0550
+Sommesous Sortie;GL-ECH-0550
+Sophia;GL-ECH-0551
+Sorigny Bpv;GL-BPV-0102
+Soudan;GL-ECH-0552
+Souillac;GL-ECH-0553
+Soumoulou;GL-ECH-0554
+St Amand-Montrond;GL-ECH-0555
+St Julien Mont Denis;GL-ECH-0576
+St Martin-Du-Fresne;GL-ECH-0579
+St Michel Barriere;GL-BPV-0114
+St Michel Echangeur;GL-ECH-0582
+St Michel amont;GL-ECH-0581
+St Pierre de Belleville;GL-ECH-0585
+St-Denis-Les-Sens;GL-ECH-0558
+St-Germain-Laxis;GL-ECH-0565
+Ste Marie de Cuines;GL-ECH-0595
+Sylans;GL-ECH-0598
+Tain;GL-ECH-0599
+Taissy BPV Entree Sens 1;GL-BPV-0121
+Taissy BPV Sortie Sens 2;GL-BPV-0121
+Tarare Est Ferme;GL-ECH-0600
+Tarare Est ouvert E;GL-ECH-0601
+Tarare Est ouvert S;GL-ECH-0602
+Tarare Ouest;GL-ECH-0603
+Tarbes Est;GL-ECH-0604
+Tarbes Ouest;GL-ECH-0605
+Terrasson E;GL-ECH-0606
+Terrasson S;GL-ECH-0607
+Thelus Entree;GL-ECH-0608
+Thelus Sortie;GL-ECH-0608
+Thennelieres;GL-ECH-0609
+Thenon Est E;GL-ECH-0610
+Thenon Est S;GL-ECH-0611
+Thenon vers Brives;GL-BPV-0122
+Thenon vers Perigueux;GL-BPV-0123
+Therouanne Entree;GL-ECH-0612
+Therouanne Sortie;GL-ECH-0612
+Thiers Est;GL-ECH-0613
+Thiers Ouest;GL-ECH-0614
+Thillois BPV Entree Sens 1;GL-BPV-0124
+Thillois BPV Sortie Sens 2;GL-BPV-0124
+Thivars Nord Sens 1;GL-ECH-0615
+Thivars Sud Sens 2;GL-ECH-0616
+Thouarce E;GL-ECH-0617
+Thouarce S;GL-ECH-0618
+Tilchatel;GL-ECH-0619
+Tonnay-Charente E;GL-ECH-0620
+Tonnay-Charente S;GL-ECH-0621
+Torvilliers;GL-ECH-0622
+Toulouse Est vers Albi;GL-BPV-0125
+Toulouse Est vers Toulouse;GL-BPV-0126
+Toulouse Nord Ouest;GL-BPV-0127
+Toulouse Sud Est;GL-BPV-0128
+Tournay;GL-ECH-0623
+Tournus;GL-ECH-0624
+Tours Nord;GL-ECH-0625
+Toutainville Entree;GL-ECH-0626
+Toutainville Sortie;GL-ECH-0626
+Troarn Entree;GL-ECH-0627
+Troarn Sortie;GL-ECH-0627
+Tulle Est;GL-ECH-0628
+Tulle Nord;GL-ECH-0629
+Tullins;GL-ECH-0630
+Ury;GL-ECH-0631
+Ussel Est;GL-ECH-0632
+Ussel Ouest;GL-ECH-0633
+Vaiges;GL-ECH-0634
+Val De Loing-Souppes;GL-ECH-0635
+Val De Saone;GL-BPV-0129
+Valence D'Agen;GL-ECH-0636
+Valence Nord;GL-ECH-0637
+Valence Sud;GL-ECH-0638
+Vallee de l'Aisne Entree;GL-ECH-0639
+Vallee de l'Aisne Sortie;GL-ECH-0639
+Vallee de l'Aube Entree;GL-ECH-0640
+Vallee de l'Aube Sortie;GL-ECH-0640
+Vallee de la Hem Entree Sens 1;GL-ECH-0641
+Vallee de la Hem Entree Sens 2;GL-ECH-0641
+Vallee de la Hem Sortie Sens 1;GL-ECH-0641
+Vallee de la Hem Sortie Sens 2;GL-ECH-0641
+Vallee de la Somme Entree;GL-ECH-0642
+Vallee de la Somme Sortie;GL-ECH-0642
+Vatry Entree;GL-ECH-0643
+Vatry Sortie;GL-ECH-0643
+Vaucresson Le Chesnay BPV;GL-BPV-0130
+Vaucresson Le Chesnay Bpv;GL-BPV-0130
+Veauchette;GL-BPV-0131
+Veigne Bpv;GL-BPV-0132
+Verdun Entree;GL-ECH-0644
+Verdun Sortie;GL-ECH-0644
+Vichy;GL-BPV-0133
+Vieilleville Nord;GL-ECH-0645
+Vieilleville Sud;GL-ECH-0646
+Vienne;GL-BPV-0134
+Vierzon Est;GL-ECH-0647
+Vierzon Nord;GL-ECH-0648
+Ville Sous Laferte;GL-ECH-0649
+Villefontaine;GL-ECH-0650
+Villefranche Nord;GL-ECH-0652
+Villefranche Sur Cher;GL-ECH-0653
+Villefranche de Lauraguais;GL-ECH-0651
+Villefranche-Limas;GL-BPV-0135
+Villefranche-Ville;GL-ECH-0654
+Villeneuve-Dondagre;GL-ECH-0655
+Villers Bretonneux Entree;GL-ECH-0656
+Villers Bretonneux Sortie;GL-ECH-0656
+Vinay;GL-ECH-0657
+Viriat;GL-ECH-0658
+Virsac;GL-BPV-0136
+Viry;GL-BPV-0137
+Vivy;GL-ECH-0659
+Voie Sacree Entree;GL-ECH-0660
+Voie Sacree Sortie;GL-ECH-0660
+Voiron (Champfeuillet);GL-ECH-0661
+Voreppe Barriere;GL-BPV-0138
+Vouille;GL-ECH-0662
+Vulaines;GL-ECH-0663
+Vulcania Bromont;GL-ECH-0664
+Yerville Entree;GL-ECH-0665
+Yerville Sortie;GL-ECH-0665
+Yvetot Entree;GL-ECH-0666
+Yvetot Sortie;GL-ECH-0666
+etaples-Le Touquet Entree;GL-ECH-0312
+etaples-Le Touquet Sortie;GL-ECH-0312

@@ -1,0 +1,2 @@
+usage: bench_sse.py [-h] [--url URL] [--clients CLIENTS] [--duration DURATION]
+bench_sse.py: error: unrecognized arguments: &

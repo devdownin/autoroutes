@@ -1,0 +1,24 @@
+# Acheminement des alertes Prometheus. Profil Compose « monitoring ».
+# Aucun récepteur externe n'est configuré par défaut : les alertes sont visibles sur l'interface (port 9093).
+# Pour notifier, ajouter une intégration au récepteur « equipe » (email_configs, webhook_configs, slack_configs…)
+# puis recharger : docker compose restart alertmanager. Ne jamais versionner d'URL ou de mot de passe : utiliser url_file / password_file.
+route:
+  receiver: equipe
+  group_by: [alertname]
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 4h
+  routes:
+    - matchers: [severity="critical"]
+      receiver: equipe
+      group_wait: 10s
+      repeat_interval: 1h
+
+receivers:
+  - name: equipe
+
+inhibit_rules:
+  # Backend injoignable : les autres alertes en découlent.
+  - source_matchers: [alertname="BackendDown"]
+    target_matchers: [severity=~"warning|critical"]
+    equal: []

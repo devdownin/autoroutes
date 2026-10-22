@@ -1,0 +1,76 @@
+spring:
+  application:
+    name: supervision-backend
+  threads:
+    virtual:
+      enabled: true
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/supervision}
+    username: ${DATABASE_USER:supervision}
+    password: ${DATABASE_PASSWORD:}
+    hikari:
+      # Borne l'arrêt (point de reprise final) et les écritures de quarantaine si la base est injoignable.
+      connection-timeout: 5000
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:29092}
+    consumer:
+      group-id: autoroutes-supervision
+      enable-auto-commit: false
+      # Repli seulement : l'application positionne elle-même (point de reprise, sinon minuit Europe/Paris).
+      auto-offset-reset: earliest
+      isolation-level: read_committed
+      max-poll-records: 500
+      properties:
+        # Appartenance statique : après un crash, l'instance redémarrée reprend ses partitions sans attendre
+        # l'expiration de session de l'ancien membre (Spring Kafka suffixe l'identifiant par conteneur).
+        group.instance.id: ${KAFKA_GROUP_INSTANCE_ID:supervision-backend}
+    listener:
+      # Offsets commités pour la supervision du retard ; la reprise s'appuie sur le point de reprise.
+      ack-mode: batch
+      concurrency: ${KAFKA_CONCURRENCY:3}
+    producer:
+      acks: all
+
+server:
+  forward-headers-strategy: framework
+  shutdown: graceful
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        # Lax et non Strict : le retour de Keycloak est une navigation inter-sites qui doit emporter le cookie de session.
+        same-site: lax
+  compression:
+    # Séries et relecture volumineuses ; jamais text/event-stream (le gzip mettrait le flux SSE en tampon).
+    enabled: true
+    mime-types: application/json,application/geo+json
+    min-response-size: 2KB
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus,metrics
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      group:
+        readiness:
+          include: readinessState,db,supervision
+
+supervision:
+  zone: Europe/Paris
+  referentiel:
+    stations-file: ${REFERENTIEL_STATIONS_FILE:../referentiel/gares-logiques-proposition.csv}
+    aliases-file: ${REFERENTIEL_ALIASES_FILE:../referentiel/alias-gares.csv}
+  security:
+    # true : connexion OIDC (Keycloak) obligatoire, rôles VIEWER / ADMIN ; voir docs/increment-5.md
+    enabled: ${SUPERVISION_SECURITY_ENABLED:false}
+    roles-claim: ${SUPERVISION_ROLES_CLAIM:roles}
+  assignment:
+    # Graphe produit par cartographie/build.sh (out/graph/graph.json) ; vide = charge estimée des tronçons inactive.
+    graph-file: ${ASSIGNMENT_GRAPH_FILE:}
+  kafka:
+    topic: toll-events
+    rejected-topic: toll-events.rejected

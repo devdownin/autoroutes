@@ -1,0 +1,8 @@
+backend/target
+simulator/target
+frontend/node_modules
+frontend/dist
+frontend/test-results
+cartographie/out
+cartographie/work
+.git

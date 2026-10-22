@@ -1,0 +1,813 @@
+nomGare;type;points;voies;routes;departement;gareLogique
+Abbeville-Est Entree;Echangeur;1;2;80A901640CD;80;GL-ECH-0139
+Abbeville-Est Sortie;Echangeur;1;4;80A901640CD;80;GL-ECH-0139
+Abbeville-Nord Sortie;Echangeur;1;9;80A901645CD;80;GL-ECH-0140
+Ablis;Echangeur;1;2;78A901105CD;78;GL-ECH-0141
+Agde-Pezenas;Echangeur;2;12;34A900915CD;34;GL-ECH-0142
+Agen;Echangeur;2;8;47A906215CD;47;GL-ECH-0143
+Aigrefeuille;Echangeur;2;7;44A908310CD;44;GL-ECH-0144
+Aiguebelette;Echangeur;2;10;73A904310CD;73;GL-ECH-0145
+Aiguillon;Echangeur;2;5;47A906210CD;47;GL-ECH-0146
+Aiton;Echangeur;2;4;73A904345CD;73;GL-ECH-0147
+Aix Nord;Echangeur;2;6;73A904120CD;73;GL-ECH-0148
+Aix Sud;Echangeur;2;5;73A904115CD;73;GL-ECH-0149
+Alencon Nord;Echangeur;3;10;61A902805CD, A0028;61;GL-ECH-0150
+Alencon Sud;Echangeur;2;3;72A902835CD;72;GL-ECH-0151
+Allaines;Echangeur;2;5;28A901005CD;28;GL-ECH-0152
+Allainville;Echangeur;2;7;78A901015CD;78;GL-ECH-0153
+Allonzier;Echangeur;2;4;74A941002CD;74;GL-ECH-0154
+Amberieu;Echangeur;2;6;01A904240CD;01;GL-ECH-0155
+Amblainville BPV Sens 1;Pleine voie;1;5;A0016;60;GL-BPV-0000
+Amblainville BPV Sens 2;Pleine voie;1;10;A0016;60;GL-BPV-0000
+Amboise Chateau Renault;Echangeur;2;5;37A901005CD;37;GL-ECH-0156
+Amiens-Nord Entree;Echangeur;1;3;80A901630CD;80;GL-ECH-0157
+Amiens-Nord Sortie;Echangeur;1;5;80A901630CD;80;GL-ECH-0157
+Amiens-Ouest Entree;Echangeur;1;1;80A901625CD;80;GL-ECH-0158
+Amiens-Ouest Sortie;Echangeur;1;3;80A901625CD;80;GL-ECH-0158
+Ancenis Bpv;Pleine voie;2;18;A0011;44;GL-BPV-0001
+Ancenis Nord;Echangeur;2;5;44A901105CD;44;GL-ECH-0159
+Ancenis Sud;Echangeur;2;5;44A901105CD;44;GL-ECH-0160
+Annecy Centre;Echangeur;2;9;74A904115CD;74;GL-ECH-0161
+Annecy Nord;Echangeur;2;9;74A904120CD;74;GL-ECH-0162
+Antibes  Sud BPV;Pleine voie;1;17;A0008;06;GL-BPV-0003
+Antibes Est Entrée 2/2;Echangeur;1;5;06A900815CD;06;GL-ECH-0164
+Antibes Est Sortie;Echangeur;1;8;06A900815CD;06;GL-ECH-0163
+Antibes Nord BPV;Pleine voie;1;17;A0008;06;GL-BPV-0002
+Antibes Ouest Entrée;Echangeur;1;4;06A900812CD;06;GL-ECH-0165
+Antibes Ouest Sortie;Echangeur;1;4;06A900812CD;06;GL-ECH-0165
+Arlay;Echangeur;2;3;39A903915CD;39;GL-ECH-0166
+Arles;Pleine voie;2;19;A0054;13;GL-BPV-0004
+Arsy Entree;Echangeur;1;2;60A900125CD;60;GL-ECH-0167
+Arsy Sortie;Echangeur;1;4;60A900125CD;60;GL-ECH-0167
+Artenay;Echangeur;2;8;28A901010CD;28;GL-ECH-0168
+Artix;Echangeur;2;5;64A906445CD;64;GL-ECH-0169
+Arveyres;Pleine voie;2;12;A0089;33;GL-BPV-0005
+Athies Entree;Echangeur;1;1;80A902945CD;80;GL-ECH-0170
+Athies Sortie;Echangeur;1;2;80A902945CD;80;GL-ECH-0170
+Auberives;Echangeur;2;4;38A900705CD;38;GL-ECH-0171
+Aubignosc Est;Echangeur;2;4;04A905120CD;04;GL-ECH-0172
+Aubignosc OUEST;Echangeur;2;4;04A905120CD;04;GL-ECH-0173
+Audomarois A Entree Sens 1;Echangeur;1;2;62A902610CD;62;GL-ECH-0174
+Audomarois A Sortie Sens 2;Echangeur;1;4;62A902610CD;62;GL-ECH-0174
+Audomarois B Entree Sens 2;Echangeur;1;2;62A902610CD;62;GL-ECH-0175
+Audomarois B Sortie Sens 1;Echangeur;1;2;62A902610CD;62;GL-ECH-0175
+Aumale Est Entree;Echangeur;1;1;76A902955CD;76;GL-ECH-0176
+Aumale Est Sortie;Echangeur;1;2;76A902955CD;76;GL-ECH-0176
+Aumale Ouest Entree;Echangeur;1;1;76A902955CD;76;GL-ECH-0177
+Aumale Ouest Sortie;Echangeur;1;1;76A902955CD;76;GL-ECH-0177
+Auriol;Echangeur;2;8;A0520;13;GL-ECH-0178
+Auvours;Echangeur;2;6;72A902820CD;72;GL-ECH-0179
+Auxerre Nord;Echangeur;2;5;89A900620CD;89;GL-ECH-0180
+Auxerre Sud;Echangeur;2;4;89A900625CD;89;GL-ECH-0181
+Auxy;Echangeur;2;6;45A901925CD;45;GL-ECH-0182
+Avallon;Echangeur;2;5;89A900635CD;89;GL-ECH-0183
+Avignon Nord;Echangeur;2;12;84A900725CD;84;GL-ECH-0184
+Avignon Sud;Echangeur;2;9;84A900730CD;84;GL-ECH-0185
+Baillargues;Pleine voie;2;24;A0709;34;GL-BPV-0006
+Balan;Echangeur;2;5;01A904230CD;01;GL-ECH-0186
+Balbigny;Echangeur;2;14;42A908915CD;42;GL-ECH-0187
+Bandol BPV;Pleine voie;2;17;A0050;83;GL-BPV-0007
+Bandol Echangeur;Echangeur;2;10;83A905015CD;83;GL-ECH-0188
+Bapaume Entree;Echangeur;1;2;62A900102CD;62;GL-ECH-0189
+Bapaume Sortie;Echangeur;1;3;62A900102CD;62;GL-ECH-0189
+Baume-Les-Dames;Echangeur;2;4;25A903635CD;25;GL-ECH-0190
+Bayonne Sud E;Echangeur;1;4;64A906315CD;64;GL-ECH-0191
+Bayonne Sud S;Echangeur;1;3;64A906315CD;64;GL-ECH-0192
+Beaufort;Echangeur;2;4;49A908510CD;49;GL-ECH-0193
+Beaulieu Sur Layon;Pleine voie;2;14;A0087;49;GL-BPV-0008
+Beaumont BPV Sens 1;Pleine voie;1;9;A0004;54;GL-BPV-0009
+Beaumont BPV Sens 2;Pleine voie;1;4;A0004;54;GL-BPV-0009
+Beaune Nord;Echangeur;2;5;21A900615CD;21;GL-ECH-0194
+Beaune Sud;Echangeur;2;8;21A900625CD;21;GL-ECH-0195
+Beaupont;Echangeur;2;4;01A903905CD;01;GL-ECH-0196
+Beaurepaire;Echangeur;2;5;39A903920CD;39;GL-ECH-0197
+Beautot Sortie;Echangeur;1;3;76A902935CD;76;GL-ECH-0198
+Beauvais-Centre Entree 1;Echangeur;1;2;60A901615CD;60;GL-ECH-0200
+Beauvais-Centre Entree 2;Echangeur;1;2;60A901615CD;60;GL-ECH-0201
+Beauvais-Centre Sortie;Echangeur;1;4;60A901615CD;60;GL-ECH-0199
+Beauvais-Nord Entree;Echangeur;1;3;60A901620CD;60;GL-ECH-0202
+Beauvais-Nord Sortie;Echangeur;1;5;60A901620CD;60;GL-ECH-0202
+Bellegarde Entrée;Echangeur;1;2;01A904005CD;01;GL-ECH-0203
+Bellegarde Sortie;Echangeur;1;2;01A904005CD;01;GL-ECH-0203
+Belleville S/Saone;Echangeur;2;8;69A900605CD;69;GL-ECH-0204
+Benesse vers Bordeaux;Pleine voie;1;10;A0063;40;GL-BPV-0010
+Benesse vers Espagne;Pleine voie;1;10;A0063;40;GL-BPV-0011
+Berck Entree;Echangeur;1;3;62A901603CD;62;GL-ECH-0205
+Berck Sortie;Echangeur;1;4;62A901603CD;62;GL-ECH-0205
+Bernay;Echangeur;2;3;27A902810CD;27;GL-ECH-0206
+Bersaillin;Pleine voie;2;6;A0391;39;GL-BPV-0012
+Besancon Est;Echangeur;2;4;25A903640CD;25;GL-ECH-0207
+Besancon Nord;Echangeur;2;7;25A903645CD;25;GL-ECH-0208
+Besancon Ouest;Echangeur;2;6;25A903650CD;25;GL-ECH-0209
+Beuzeville BPV Sens 1;Pleine voie;1;11;A0013;27;GL-BPV-0013
+Beuzeville BPV Sens 2;Pleine voie;1;7;A0013;27;GL-BPV-0013
+Beuzeville Echangeur Caen Entree;Echangeur;1;2;27A901350CD;27;GL-ECH-0210
+Beuzeville Echangeur Rouen Entree;Echangeur;1;2;27A901350CD;27;GL-ECH-0211
+Beuzeville Echangeur Rouen Sortie;Echangeur;1;2;27A901350CD;27;GL-ECH-0211
+Beynost;Pleine voie;2;21;A0042;01;GL-BPV-0014
+Beziers Cabrials;Pleine voie;2;20;A0075;34;GL-BPV-0015
+Beziers-Ouest;Echangeur;2;10;34A900925CD;34;GL-ECH-0212
+Biarritz E;Echangeur;1;5;64A906320CD;64;GL-ECH-0213
+Biarritz S;Echangeur;1;5;64A906320CD;64;GL-ECH-0214
+Bierre-Les-Semur;Echangeur;2;4;21A900605CD;21;GL-ECH-0215
+Bignon;Pleine voie;2;17;A0083;44;GL-BPV-0016
+Biriatou vers Bordeaux;Pleine voie;1;10;A0063;64;GL-BPV-0017
+Biriatou vers Espagne;Pleine voie;1;10;A0063;64;GL-BPV-0018
+Blere;Echangeur;2;5;37A908535CD;37;GL-ECH-0216
+Blois;Echangeur;2;5;41A901010CD;41;GL-ECH-0217
+Bolbec Entree;Echangeur;1;3;76A902920CD;76;GL-ECH-0218
+Bolbec Sortie;Echangeur;1;5;76A902920CD;76;GL-ECH-0218
+Bollene;Echangeur;2;9;84A900705CD;84;GL-ECH-0219
+Bonneville Est Entrée;Echangeur;1;2;74A904025CD;74;GL-ECH-0220
+Bonneville Est Sortie;Echangeur;1;2;74A904025CD;74;GL-ECH-0220
+Bonneville Ouest S1;Echangeur;1;3;74A904030CD;74;GL-ECH-0221
+Bonneville Ouest S2;Echangeur;1;3;74A904030CD;74;GL-ECH-0222
+Boulay PSB Entree;Echangeur;1;1;57A900430CD;57;GL-ECH-0223
+Boulay PSB Sortie;Echangeur;1;1;57A900430CD;57;GL-ECH-0223
+Bourg Nord;Echangeur;2;4;01A904035CD;01;GL-ECH-0225
+Bourg Sud;Echangeur;2;5;01A904025CD;01;GL-ECH-0226
+Bourg-Achard Entree;Echangeur;1;2;27A901335CD;27;GL-ECH-0224
+Bourg-Achard Sortie;Echangeur;1;2;27A901335CD;27;GL-ECH-0224
+Bourges;Echangeur;3;10;18A907115CD, A0071;18;GL-ECH-0227
+Bourgoin;Echangeur;2;7;38A904325CD;38;GL-ECH-0228
+Bourgueil;Echangeur;2;3;37A908505CD;37;GL-ECH-0229
+Bourneville Annexe Entree;Echangeur;1;2;27A901340CD;27;GL-ECH-0230
+Bourneville Annexe Sortie;Echangeur;1;2;27A901340CD;27;GL-ECH-0230
+Bourneville BPV Principale Sens 1;Pleine voie;1;5;A0131;27;GL-BPV-0019
+Bourneville BPV Principale Sens 2;Pleine voie;1;5;A0131;27;GL-BPV-0019
+Bouville;Pleine voie;2;10;A0150;76;GL-BPV-0020
+BPV Nord S1 (SAUGNACQ ET MURET);Pleine voie;1;10;A0063;40;GL-BPV-0082
+BPV Nord S2 (SAUGNACQ ET MURET);Pleine voie;1;10;A0063;40;GL-BPV-0083
+BPV Sud S1 (CASTETS);Pleine voie;1;9;A0063;40;GL-BPV-0119
+BPV Sud S2 (CASTETS);Pleine voie;1;9;A0063;40;GL-BPV-0120
+Bram;Echangeur;2;4;11A906110CD;11;GL-ECH-0231
+Brignoles;Echangeur;2;6;83A900815CD;83;GL-ECH-0232
+Brionne;Echangeur;2;3;27A902815CD;27;GL-ECH-0233
+Buchelay BPV Sens 1;Pleine voie;1;15;A0013;78;GL-BPV-0021
+Buchelay BPV Sens 2;Pleine voie;1;9;A0013;78;GL-BPV-0021
+Bulgneville;Echangeur;2;4;88A903110CD;88;GL-ECH-0234
+Cabariot;Pleine voie;2;13;A0837;17;GL-BPV-0022
+Cagnes Est;Echangeur;2;10;06A900827CD;06;GL-ECH-0235
+Cagnes Ouest Nord;Echangeur;1;3;06A900824CD;06;GL-ECH-0236
+Cagnes Ouest Sud;Echangeur;1;3;06A900821CD;06;GL-ECH-0237
+Cagny Entree;Echangeur;1;3;14A901325CD;14;GL-ECH-0238
+Cagny Sortie;Echangeur;1;3;14A901325CD;14;GL-ECH-0238
+Cahors Nord;Echangeur;2;8;46A902020CD;46;GL-ECH-0239
+Cahors Sud;Echangeur;2;8;46A902025CD;46;GL-ECH-0240
+Capbreton Entree;Echangeur;1;5;40A906360CD;40;GL-ECH-0241
+Capbreton Sortie Nord;Echangeur;1;3;40A906360CD;40;GL-ECH-0242
+Capbreton Sortie Sud;Echangeur;1;4;40A906360CD;40;GL-ECH-0243
+Capitou BPV;Pleine voie;2;24;A0008;83;GL-BPV-0023
+Capvern;Echangeur;2;5;65A906420CD;65;GL-ECH-0244
+Carcassonne Est;Echangeur;2;7;11A906120CD;11;GL-ECH-0245
+Carcassonne Ouest;Echangeur;2;6;11A906115CD;11;GL-ECH-0246
+Carnoules;Echangeur;2;3;83A905765CD;83;GL-ECH-0247
+Cassis;Echangeur;2;4;13A905025CD;13;GL-ECH-0248
+Castelnaudary;Echangeur;2;5;11A906105CD;11;GL-ECH-0249
+Castelsarrasin;Echangeur;2;5;82A906210CD;82;GL-ECH-0250
+Caussade;Echangeur;2;5;82A902005CD;82;GL-ECH-0251
+Cavaillon;Echangeur;1;3;13A900705CD;13;GL-ECH-0252
+Chalon Nord;Echangeur;2;8;71A900605CD;71;GL-ECH-0253
+Chalon Sud;Echangeur;2;8;71A900610CD;71;GL-ECH-0254
+Chamant Sens 1;Pleine voie;1;8;A0001;60;GL-BPV-0024
+Chamant Sens 2;Pleine voie;1;19;A0001;60;GL-BPV-0024
+Chambourcy Entree;Echangeur;1;4;78A901405CD;78;GL-ECH-0255
+Chambourcy Sortie;Echangeur;1;4;78A901405CD;78;GL-ECH-0255
+Chambray Est depuis RD910;Echangeur;1;2;37A901040CD;37;GL-ECH-0256
+Chambray Est depuis RD943;Echangeur;1;3;37A901035CD;37;GL-ECH-0257
+Chambray Ouest depuis RD943;Echangeur;1;3;37A901035CD;37;GL-ECH-0258
+Chambray Ouest vers RD910;Echangeur;1;2;37A901040CD;37;GL-ECH-0259
+Chamb�ry Nord;Echangeur;2;23;A0043;73;GL-ECH-0260
+Chanas;Echangeur;2;9;38A900710CD;38;GL-ECH-0261
+Chantonnay;Echangeur;2;6;85A908320CD;85;GL-ECH-0262
+Charmont-s-Barbuise Entree;Echangeur;1;2;10A902610CD;10;GL-ECH-0263
+Charmont-s-Barbuise Sortie;Echangeur;1;3;10A902610CD;10;GL-ECH-0263
+Chartres-Est Sens 1;Echangeur;2;6;28A901105CD;28;GL-ECH-0264
+Chartres-Est Sens 2;Echangeur;2;5;28A901105CD;28;GL-ECH-0264
+Chateau-Thierry Entree;Echangeur;1;4;02A900405CD;02;GL-ECH-0265
+Chateau-Thierry Sortie;Echangeur;1;2;02A900405CD;02;GL-ECH-0265
+Chatellerault-Nord;Echangeur;2;6;86A901005CD;86;GL-ECH-0266
+Chatellerault-Sud;Echangeur;2;5;86A901010CD;86;GL-ECH-0267
+Chatenois;Echangeur;2;4;88A903115CD;88;GL-ECH-0268
+Chatillon-Laborde;Echangeur;2;6;77A900515CD;77;GL-ECH-0269
+Chatuzange Barriere;Pleine voie;2;16;A0049;26;GL-BPV-0025
+Chaumont-Semoutiers;Echangeur;2;5;52A900505CD;52;GL-ECH-0270
+Chemery;Echangeur;2;3;41A908510CD;41;GL-ECH-0271
+Chemille;Echangeur;2;4;49A908720CD;49;GL-ECH-0272
+Chesnes;Echangeur;2;8;38A904305CD;38;GL-ECH-0273
+Chevrieres Entree;Echangeur;1;4;60A900120CD;60;GL-ECH-0274
+Chevrieres Sortie;Echangeur;1;5;60A900120CD;60;GL-ECH-0274
+Chignin Barriere;Pleine voie;2;23;A0043;73;GL-BPV-0026
+Chignin Bretelle;Echangeur;2;6;73A904325CD;73;GL-ECH-0275
+Chignin Les Marches;Echangeur;2;4;73A904325CD;73;GL-ECH-0276
+Choisey;Echangeur;2;6;39A903905CD;39;GL-ECH-0277
+Cholet Nord;Echangeur;2;6;49A908725CD;49;GL-ECH-0278
+Cholet Sud;Echangeur;2;7;49A908730CD;49;GL-ECH-0279
+Clermont en Argonne Entree;Echangeur;1;1;55A900405CD;55;GL-ECH-0280
+Clermont en Argonne Sortie;Echangeur;1;2;55A900405CD;55;GL-ECH-0280
+Clermont-Barriere;Pleine voie;2;26;A0071;63;GL-BPV-0027
+Cluses Amont S1;Echangeur;1;2;74A904015CD;74;GL-ECH-0281
+Cluses Amont S2;Echangeur;1;2;74A904015CD;74;GL-ECH-0282
+Cluses Aval S1;Echangeur;1;2;74A904015CD;74;GL-ECH-0283
+Cluses Aval S2;Echangeur;1;2;74A904015CD;74;GL-ECH-0284
+Cluses-Est BPV;Pleine voie;2;12;A0040;74;GL-BPV-0028
+Colombey-Les-Belles;Echangeur;2;4;54A903105CD;54;GL-ECH-0285
+Combronde;Echangeur;2;4;63A907105CD;63;GL-ECH-0286
+Condrieu E;Echangeur;1;3;69A9007N05CD;69;GL-ECH-0287
+Condrieu S;Echangeur;1;3;69A9007N05CD;69;GL-ECH-0288
+Corze;Pleine voie;2;20;A0011;49;GL-BPV-0029
+Cote picarde Entree;Echangeur;1;2;80A901650CD;80;GL-ECH-0289
+Cote picarde Sortie;Echangeur;1;4;80A901650CD;80;GL-ECH-0289
+Cottevrard BPV Entree Sens 2;Pleine voie;1;4;A0029;76;GL-BPV-0030
+Cottevrard BPV Sortie Sens 1;Pleine voie;1;6;A0029;76;GL-BPV-0030
+Coudoux S;Echangeur;1;2;13A900725CD;13;GL-ECH-0290
+Courbes Entree;Echangeur;1;1;02A902620CD;02;GL-ECH-0291
+Courbes Sortie;Echangeur;1;2;02A902620CD;02;GL-ECH-0291
+Courcy BPV Sens 1;Pleine voie;1;12;A0026;51;GL-BPV-0031
+Courcy BPV Sens 2;Pleine voie;1;5;A0026;51;GL-BPV-0031
+Courtenay;Echangeur;2;7;89A900605CD;89;GL-ECH-0292
+Coutevroult BPV sens 1;Pleine voie;1;13;A0004;77;GL-BPV-0032
+Coutevroult BPV sens 2;Pleine voie;1;12;A0004;77;GL-BPV-0032
+Coutras;Echangeur;2;5;33A908910CD;33;GL-ECH-0293
+Crolles Barriere;Pleine voie;2;12;A0041;38;GL-BPV-0033
+Crolles Brignoud;Echangeur;2;4;38A904135CD;38;GL-ECH-0294
+Crottet;Echangeur;2;8;01A940605CD;01;GL-ECH-0295
+Cruseilles A410;Echangeur;2;2;74A941002CD;74;GL-ECH-0296
+Dijon Sud;Pleine voie;2;10;A0311;21;GL-BPV-0035
+Dijon-Arc S/Tille;Echangeur;2;5;21A903115CD;21;GL-ECH-0297
+Dijon-Crimolois;Pleine voie;2;13;A0039;21;GL-BPV-0034
+Dole;Echangeur;2;5;39A903610CD;39;GL-ECH-0298
+Dordives Est;Echangeur;1;1;77A907705CD;77;GL-ECH-0299
+Dordives Ouest;Echangeur;1;1;77A907705CD;77;GL-ECH-0300
+Dormans Entree;Echangeur;1;2;02A900410CD;02;GL-ECH-0301
+Dormans Sortie;Echangeur;1;3;02A900410CD;02;GL-ECH-0301
+Dourdan Nord;Echangeur;1;4;78A901005CD;78;GL-ECH-0302
+Dourdan Sud;Echangeur;1;4;78A901005CD;78;GL-ECH-0303
+Dozule BPV Nord Sens 1;Pleine voie;1;12;A0013;14;GL-BPV-0036
+Dozule BPV Sud Sens 2;Pleine voie;1;12;A0013;14;GL-BPV-0037
+Dozule Echangeur Entree;Echangeur;1;4;14A901315CD;14;GL-ECH-0304
+Dozule Echangeur Sortie;Echangeur;1;3;14A901315CD;14;GL-ECH-0304
+Durtal;Echangeur;2;4;49A901105CD;49;GL-ECH-0305
+Dury BPV Entree Sens 2;Pleine voie;1;5;A0029;80;GL-BPV-0038
+Dury BPV Sortie Sens 1;Pleine voie;1;11;A0029;80;GL-BPV-0038
+Ecommoy;Echangeur;2;4;72A902810CD;72;GL-ECH-0306
+Egletons;Echangeur;2;4;19A908940CD;19;GL-ECH-0307
+Eloise;Echangeur;2;6;74A904065CD;74;GL-ECH-0308
+Epretot BPV Sens 1;Pleine voie;1;5;A0029;76;GL-BPV-0039
+Epretot BPV Sens 2;Pleine voie;1;6;A0029;76;GL-BPV-0039
+Escrennes;Echangeur;2;5;45A901930CD;45;GL-ECH-0309
+Essertaux Entree;Echangeur;1;1;80A901605CD;80;GL-ECH-0310
+Essertaux Sortie;Echangeur;1;2;80A901605CD;80;GL-ECH-0310
+Esvres;Echangeur;2;5;37A908530CD;37;GL-ECH-0311
+etaples-Le Touquet Entree;Echangeur;1;2;62A901606CD;62;GL-ECH-0312
+etaples-Le Touquet Sortie;Echangeur;1;4;62A901606CD;62;GL-ECH-0312
+Eurocentre;Echangeur;2;11;31A906205CD;31;GL-ECH-0313
+Farebersviller Entree;Echangeur;1;3;57A900445CD;57;GL-ECH-0314
+Farebersviller Sortie;Echangeur;1;3;57A900445CD;57;GL-ECH-0314
+Fecamp Entree;Echangeur;1;3;76A902925CD;76;GL-ECH-0315
+Fecamp Sortie;Echangeur;1;4;76A902925CD;76;GL-ECH-0315
+Feillens;Echangeur;2;6;01A904055CD;01;GL-ECH-0316
+Feurs;Echangeur;2;6;42A907265CD;42;GL-ECH-0317
+Fleury-En-Biere;Pleine voie;2;29;A0006;77;GL-BPV-0040
+Flixecourt Entree;Echangeur;1;1;80A901635CD;80;GL-ECH-0318
+Flixecourt Sortie;Echangeur;1;2;80A901635CD;80;GL-ECH-0318
+Fontaine Notre-Dame Entree;Echangeur;1;2;59A900210CD;59;GL-ECH-0319
+Fontaine Notre-Dame Sortie;Echangeur;1;4;59A900210CD;59;GL-ECH-0319
+Fontaine-Lariviere;Pleine voie;2;18;A0036;90;GL-BPV-0041
+Fontainebleau;Echangeur;2;7;77A900615CD;77;GL-ECH-0320
+Fontenay Centre;Echangeur;2;5;85A908335CD;85;GL-ECH-0321
+Fontenay Ouest;Echangeur;2;5;85A908330CD;85;GL-ECH-0322
+Fontenay sur Loing;Echangeur;2;4;45A901915CD;45;GL-ECH-0323
+Foret De Troncais;Echangeur;2;4;03A907105CD;03;GL-ECH-0324
+Forges;Echangeur;2;6;77A900520CD;77;GL-ECH-0325
+Fresnes BPV Sens 1;Pleine voie;1;8;A0001;62;GL-BPV-0042
+Fresnes BPV Sens 2;Pleine voie;1;16;A0001;62;GL-BPV-0042
+Fresnes en Woevre Entree;Echangeur;1;1;55A900420CD;55;GL-ECH-0328
+Fresnes en Woevre Sortie;Echangeur;1;2;55A900420CD;55;GL-ECH-0328
+Fréjus Est;Echangeur;2;9;83A900840CD;83;GL-ECH-0326
+Fréjus Ouest;Echangeur;2;5;83A900835CD;83;GL-ECH-0327
+Futuroscope;Echangeur;2;5;86A901015CD;86;GL-ECH-0329
+Gace 1;Echangeur;2;2;61A902815CD;61;GL-ECH-0330
+Gace 2;Echangeur;2;2;61A902815CD;61;GL-ECH-0331
+Gallargues;Echangeur;2;13;30A900925CD;30;GL-ECH-0332
+Gannat;Pleine voie;1;2;A0719;03;GL-BPV-0043
+Gare de peage Aire sur l'Adour Nord;Echangeur;2;7;A0065;40;GL-ECH-0333
+Gare de peage Aire sur l'Adour Sud;Echangeur;2;4;A0065;40;GL-ECH-0334
+Gare de peage Bazas;Echangeur;2;5;A0065;33;GL-ECH-0335
+Gare de peage Captieux;Echangeur;2;3;A0065;33;GL-ECH-0336
+Gare de peage Garlin;Echangeur;2;3;A0065;40;GL-ECH-0337
+Gare de peage Le Caloy;Echangeur;2;7;A0065;40;GL-ECH-0338
+Gare de peage Roquefort;Echangeur;2;3;A0065;40;GL-ECH-0339
+Gare de peage Theze;Echangeur;2;4;A0065;64;GL-ECH-0340
+Gares de peage de saint germain;Pleine voie;2;22;A0075;12;GL-BPV-0107
+Garons;Echangeur;2;5;30A905415CD;30;GL-ECH-0341
+Gauchy Entree;Echangeur;1;2;02A902615CD;02;GL-ECH-0342
+Gauchy Sortie;Echangeur;1;3;02A902615CD;02;GL-ECH-0342
+Genay;Echangeur;2;6;69A904615CD;69;GL-ECH-0343
+Gendrey;Echangeur;2;3;39A903605CD;39;GL-ECH-0344
+Gerzat-Ville;Echangeur;4;11;63A907115CD;63;GL-ECH-0345
+Gignac;Pleine voie;2;16;A0020;46;GL-BPV-0044
+Gondreville la Franche;Echangeur;2;6;45A901920CD;45;GL-ECH-0346
+Grans;Echangeur;2;8;13A905415CD;13;GL-ECH-0347
+Groissiat;Pleine voie;2;7;A0404;01;GL-BPV-0045
+Guiche Entree;Echangeur;1;1;64A906430CD;64;GL-ECH-0348
+Guiche Sortie;Echangeur;1;1;64A906430CD;64;GL-ECH-0348
+Gye;Pleine voie;2;17;A0031;54;GL-BPV-0046
+Hardivillers Entree;Echangeur;1;1;60A901625CD;60;GL-ECH-0349
+Haudricourt BPV Sens 1;Pleine voie;1;4;A0029;76;GL-BPV-0047
+Haudricourt BPV Sens 2;Pleine voie;1;7;A0029;76;GL-BPV-0047
+Hermillon;Echangeur;2;5;73A904360CD;73;GL-ECH-0350
+Herquelingue BPV Sens 1;Pleine voie;1;10;A0016;62;GL-BPV-0048
+Herquelingue BPV Sens 2;Pleine voie;1;6;A0016;62;GL-BPV-0048
+Heudebouville BPV Sens 1;Pleine voie;1;13;A0013;27;GL-BPV-0049
+Heudebouville BPV Sens 2;Pleine voie;1;8;A0013;27;GL-BPV-0049
+Heudebouville Echangeur Entree;Echangeur;1;2;27A901315CD;27;GL-ECH-0351
+Heudebouville Echangeur Sortie;Echangeur;1;2;27A901315CD;27;GL-ECH-0351
+Hochfelden Entree;Echangeur;1;2;67A900415CD;67;GL-ECH-0352
+Hochfelden Ouest Entree;Echangeur;1;1;67A900415CD;67;GL-ECH-0353
+Hochfelden Ouest Sortie;Echangeur;1;1;67A900415CD;67;GL-ECH-0353
+Hochfelden Sortie;Echangeur;1;3;67A900415CD;67;GL-ECH-0352
+Hordain BPV Entree sens 2;Pleine voie;1;6;A0002;59;GL-BPV-0050
+Hordain BPV Sortie sens 1;Pleine voie;1;11;A0002;59;GL-BPV-0050
+Incarville BPV Sens 1;Pleine voie;1;6;A0154;27;GL-BPV-0051
+Incarville BPV Sens 2;Pleine voie;1;6;A0154;27;GL-BPV-0051
+Isques Entree;Echangeur;1;2;62A901612CD;62;GL-ECH-0354
+Isques Sortie;Echangeur;1;3;62A901612CD;62;GL-ECH-0354
+Jarny Entree;Echangeur;1;1;54A900405CD;54;GL-ECH-0355
+Jarny Sortie;Echangeur;1;2;54A900405CD;54;GL-ECH-0355
+Joigny;Echangeur;4;9;89A900615CD;89;GL-ECH-0356
+Joue En Charnie;Echangeur;2;4;72A908105CD;72;GL-ECH-0357
+Jules Verne BPV Entree Sens 1;Pleine voie;1;5;A0029;80;GL-BPV-0052
+Jules Verne BPV Sortie Sens 2;Pleine voie;1;11;A0029;80;GL-BPV-0052
+L'Arrageois Entree;Echangeur;1;2;62A900104CD;62;GL-ECH-0358
+L'Arrageois Sortie;Echangeur;1;3;62A900104CD;62;GL-ECH-0358
+L'Isle d'Abeau Centre;Echangeur;2;8;38A904320CD;38;GL-ECH-0359
+L'Isle-S/Le-Doubs;Echangeur;2;4;25A903630CD;25;GL-ECH-0360
+L'Union vers l'Union;Echangeur;1;6;31A906801CD;31;GL-ECH-0361
+L'Union vers Toulouse;Echangeur;1;8;31A906801CD;31;GL-ECH-0362
+La Bachellerie Entree;Echangeur;1;2;24A908935CD;24;GL-ECH-0363
+La Bachellerie Sortie;Echangeur;1;2;24A908935CD;24;GL-ECH-0363
+La Barque BPV;Pleine voie;2;28;A0008;13;GL-BPV-0053
+La Baume d'Hostun;Echangeur;2;5;26A904905CD;26;GL-ECH-0364
+La Boisse;Pleine voie;6;22;01A904220CD, A0432;01;GL-BPV-0054
+La Boisse - Montluel;Echangeur;2;6;01A904225CD;01;GL-ECH-0365
+La Brillanne;Echangeur;2;4;04A905110CD;04;GL-ECH-0366
+La Ciotat BPV;Pleine voie;2;23;A0050;13;GL-BPV-0055
+La Ciotat Ech.;Echangeur;2;12;13A905030CD;13;GL-ECH-0367
+La Cotiere;Pleine voie;2;4;01A904220CD;01;GL-BPV-0056
+La Croix-Chalon;Echangeur;2;5;01A940405CD;01;GL-ECH-0368
+La Ferte Bernard;Echangeur;2;5;72A901105CD;72;GL-ECH-0369
+La Gravelle Bpv;Pleine voie;2;19;A0081;53;GL-BPV-0057
+La Negresse vers Bordeaux;Pleine voie;1;11;A0063;64;GL-BPV-0058
+La Negresse vers Espagne;Pleine voie;1;11;A0063;64;GL-BPV-0059
+La Neuvillette Entree Sens 1;Echangeur;1;2;51A902605CD;51;GL-ECH-0370
+La Neuvillette Sortie Sens 2;Echangeur;1;2;51A902605CD;51;GL-ECH-0370
+La Reole;Echangeur;2;4;33A906220CD;33;GL-ECH-0371
+La Roche Sur Yon;Pleine voie;2;13;A0087;85;GL-BPV-0060
+La Saulce BPV;Pleine voie;2;11;A0051;05;GL-BPV-0061
+La Thibaudiere;Echangeur;2;8;37A901045CD;37;GL-ECH-0372
+La Tour du Pin;Echangeur;2;5;38A904335CD;38;GL-ECH-0373
+La Tour du Pin Est;Echangeur;2;4;38A904340CD;38;GL-ECH-0374
+La Turbie BPV;Pleine voie;2;15;A0008;06;GL-BPV-0062
+La Turbie Echangeur;Echangeur;2;6;06A900851CD;06;GL-ECH-0375
+La Verrie;Echangeur;2;7;85A908705CD;85;GL-ECH-0376
+La Veuve Entree;Echangeur;1;3;51A900430CD;51;GL-ECH-0377
+La Veuve Sortie;Echangeur;1;4;51A900430CD;51;GL-ECH-0377
+Labastide Murat;Echangeur;2;5;46A902015CD;46;GL-ECH-0378
+Laghet Entrée Tunnel Sens 1;Echangeur;1;2;06A950005CD;06;GL-ECH-0379
+Laghet Sortie Tunnel Sens 2;Echangeur;1;2;06A950005CD;06;GL-ECH-0379
+Lamotte-Beuvron;Echangeur;2;3;41A907105CD;41;GL-ECH-0380
+Lancon;Pleine voie;2;35;A0007;13;GL-BPV-0063
+Langon;Echangeur;2;9;33A906210CD;33;GL-ECH-0381
+Langres Nord;Echangeur;2;5;52A903110CD;52;GL-ECH-0382
+Langres Sud;Echangeur;2;4;52A903105CD;52;GL-ECH-0383
+Lannemezan;Echangeur;2;5;65A906425CD;65;GL-ECH-0384
+Laon Chambry Entree;Echangeur;1;2;02A902625CD;02;GL-ECH-0385
+Laon Chambry Sortie;Echangeur;1;3;02A902625CD;02;GL-ECH-0385
+Laval-Est;Echangeur;2;6;53A908110CD;53;GL-ECH-0386
+Laval-Ouest;Echangeur;2;5;53A908115CD;53;GL-ECH-0387
+Le Bethunois Entree;Echangeur;1;2;62A902625CD;62;GL-ECH-0388
+Le Bethunois Sortie;Echangeur;1;5;62A902625CD;62;GL-ECH-0388
+Le Boulou;Echangeur;4;12;66A900915CD;66;GL-ECH-0389
+Le Canet De Meyreuil;Echangeur;2;7;13A900820CD;13;GL-ECH-0390
+Le Cannet Des Maures;Echangeur;2;7;83A905770CD;83;GL-ECH-0391
+Le Crozet;Pleine voie;2;8;A0051N;38;GL-BPV-0064
+Le Lievinois Entree;Echangeur;1;2;62A902635CD;62;GL-ECH-0392
+Le Lievinois Sortie;Echangeur;1;4;62A902635CD;62;GL-ECH-0392
+Le Mans Nord;Echangeur;2;7;72A901115CD;72;GL-ECH-0393
+Le Mans Ouest;Echangeur;3;8;72A901130CD, A0011;72;GL-ECH-0394
+Le Mans Sud;Echangeur;2;4;72A901130CD;72;GL-ECH-0395
+Le Miroir;Echangeur;2;4;71A903905CD;71;GL-ECH-0396
+Le Muy;Echangeur;2;12;83A900825CD;83;GL-ECH-0397
+Le Perthus;Pleine voie;2;24;A0009;66;GL-BPV-0065
+Le Tourneau;Echangeur;2;4;45A907710CD;45;GL-ECH-0398
+Le Touvet;Echangeur;2;5;38A904140CD;38;GL-ECH-0399
+Les Abrets;Echangeur;2;5;38A904345CD;38;GL-ECH-0400
+Les Adrets Nord Entrée;Echangeur;1;2;83A900845CD;83;GL-ECH-0401
+Les Adrets Nord Sortie;Echangeur;1;3;83A900845CD;83;GL-ECH-0401
+Les Adrets Sud Entrée;Echangeur;1;3;83A900845CD;83;GL-ECH-0402
+Les Adrets Sud Sortie;Echangeur;1;1;83A900845CD;83;GL-ECH-0402
+Les Eprunes;Pleine voie;2;30;A0005;77;GL-BPV-0066
+Les Essarts;Echangeur;2;6;85A908315CD;85;GL-ECH-0403
+Les Herbiers;Echangeur;2;5;85A908710CD;85;GL-ECH-0404
+Les Martres D'Artiere;Pleine voie;2;14;A0089;63;GL-BPV-0067
+Lescar;Echangeur;2;6;64A906455CD;64;GL-ECH-0405
+Lestelle;Pleine voie;2;17;A0064;31;GL-BPV-0068
+Lestelle St Martory E;Echangeur;1;2;31A906409CD;31;GL-ECH-0406
+Lestelle St Martory S;Echangeur;1;2;31A906409CD;31;GL-ECH-0407
+Leucate;Echangeur;2;8;11A900925CD;11;GL-ECH-0408
+Lezignan;Echangeur;2;5;11A906125CD;11;GL-ECH-0409
+Lezoux;Echangeur;2;4;63A908930CD;63;GL-ECH-0410
+Libourne Nord;Echangeur;2;5;33A908905CD;33;GL-ECH-0411
+Lillers Entree;Echangeur;1;2;62A902620CD;62;GL-ECH-0412
+Lillers Sortie;Echangeur;1;5;62A902620CD;62;GL-ECH-0412
+Longue;Echangeur;2;4;49A908515CD;49;GL-ECH-0413
+Loriol;Echangeur;2;6;26A900720CD;26;GL-ECH-0414
+Loupershouse BPV Sens 1;Pleine voie;1;5;A0004;57;GL-BPV-0069
+Loupershouse BPV Sens 2;Pleine voie;1;9;A0004;57;GL-BPV-0069
+Luigny;Echangeur;2;5;28A901115CD;28;GL-ECH-0415
+Lunel;Echangeur;2;10;34A900905CD;34;GL-ECH-0416
+Lusse;Echangeur;1;3;N0159;88;GL-ECH-0417
+Macon Centre;Echangeur;3;8;71A904005CD;71;GL-ECH-0418
+Macon Nord;Echangeur;2;7;71A900620CD;71;GL-ECH-0419
+Macon Sud;Echangeur;2;9;71A900625CD;71;GL-ECH-0420
+Magnant;Echangeur;2;4;10A900520CD;10;GL-ECH-0421
+Manosque;Echangeur;2;8;04A905105CD;04;GL-ECH-0422
+Manzat;Echangeur;2;5;63A908915CD;63;GL-ECH-0423
+Maresche;Echangeur;2;4;72A902825CD;72;GL-ECH-0424
+Marmande;Echangeur;2;5;47A906205CD;47;GL-ECH-0425
+Marolles-Sur-Seine;Echangeur;2;6;77A900525CD;77;GL-ECH-0426
+Marquion Entree;Echangeur;1;2;62A902650CD;62;GL-ECH-0427
+Marquion Sortie;Echangeur;1;3;62A902650CD;62;GL-ECH-0427
+Martel;Echangeur;2;4;46A902005CD;46;GL-ECH-0428
+Masnieres Entree;Echangeur;1;1;59A902605CD;59;GL-ECH-0429
+Masnieres Sortie;Echangeur;1;3;59A902605CD;59;GL-ECH-0429
+Maurepas Entree;Echangeur;1;2;80A900120CD;80;GL-ECH-0430
+Maurepas Sortie;Echangeur;1;3;80A900120CD;80;GL-ECH-0430
+Mazeres Saverdun;Echangeur;2;4;09A906605CD;09;GL-ECH-0431
+Mer;Echangeur;2;3;41A901005CD;41;GL-ECH-0432
+Meru Entree;Echangeur;1;2;60A901610CD;60;GL-ECH-0433
+Meru Sortie;Echangeur;1;3;60A901610CD;60;GL-ECH-0433
+Meung Sur Loire;Echangeur;2;5;45A901020CD;45;GL-ECH-0434
+Meyrargues BPV;Pleine voie;2;12;A0051;13;GL-BPV-0070
+Mionnay;Echangeur;2;6;01A904605CD;01;GL-ECH-0435
+Mirambeau;Echangeur;2;5;17A901020CD;17;GL-ECH-0436
+Moirans Nord;Echangeur;2;4;38A904815CD;38;GL-ECH-0437
+Moirans Sud;Echangeur;2;7;38A904815CD;38;GL-ECH-0438
+Monaco Entree Tunnel Sens 1;Echangeur;1;4;A0500;06;GL-ECH-0439
+Monaco Sortie Tunnel Sens 2;Echangeur;1;3;A0500;06;GL-ECH-0439
+Monnaie Bpv;Pleine voie;2;23;A0010;37;GL-BPV-0071
+Mont-Choisy Entree;Echangeur;1;1;51A902625CD;51;GL-ECH-0440
+Mont-Choisy Sortie;Echangeur;1;2;51A902625CD;51;GL-ECH-0440
+Montabon;Echangeur;2;4;72A902805CD;72;GL-ECH-0441
+Montaigu;Echangeur;2;8;85A908305CD;85;GL-ECH-0442
+Montauban Nord;Pleine voie;2;16;A0020;82;GL-BPV-0072
+Montauban Sud;Echangeur;2;22;82A906215CD;82;GL-ECH-0443
+Montbrison;Echangeur;2;6;42A907270CD;42;GL-ECH-0444
+Montelimar Nord;Echangeur;2;7;26A900725CD;26;GL-ECH-0445
+Montelimar Sud;Echangeur;2;8;26A900730CD;26;GL-ECH-0446
+Montesson BPV Sens 1;Pleine voie;1;13;A0014;78;GL-BPV-0073
+Montesson BPV Sens 2;Pleine voie;1;13;A0014;78;GL-BPV-0073
+Montgiscard;Echangeur;2;8;31A906140CD;31;GL-ECH-0447
+Montigny-Le-Roi;Echangeur;2;4;52A903115CD;52;GL-ECH-0448
+Montlucon;Pleine voie;1;3;A0071;03;GL-BPV-0074
+Montmarault;Echangeur;2;6;03A907115CD;03;GL-ECH-0449
+Montmelian;Echangeur;2;5;73A904330CD;73;GL-ECH-0450
+Montpellier Saint Jean De Vedas;Pleine voie;2;16;A0709;34;GL-BPV-0075
+Montpon;Echangeur;2;5;24A908905CD;24;GL-ECH-0451
+Montrejeau;Echangeur;1;3;31A906403CD;31;GL-ECH-0452
+Montreuil BPV sens 1;Pleine voie;1;5;A0004;77;GL-BPV-0076
+Montreuil BPV Sens 2;Pleine voie;1;10;A0004;77;GL-BPV-0076
+Montreuil bretelle vers Paris Entree;Echangeur;1;2;77A900460CD;77;GL-ECH-0453
+Montreuil bretelle vers Paris Sortie;Echangeur;1;2;77A900460CD;77;GL-ECH-0453
+Montreuil bretelles vers Reims Entree;Echangeur;1;1;77A900460CD;77;GL-ECH-0454
+Montreuil bretelles vers Reims Sortie;Echangeur;1;2;77A900460CD;77;GL-ECH-0454
+Monts - Sorigny;Echangeur;2;6;37A901055CD;37;GL-ECH-0455
+Mourmelon Entree;Echangeur;1;1;51A900430CD;51;GL-ECH-0456
+Mourmelon Sortie;Echangeur;1;2;51A900430CD;51;GL-ECH-0456
+Muret depuis Toulouse;Pleine voie;1;10;A0064;31;GL-BPV-0077
+Muret vers Toulouse;Pleine voie;1;10;A0064;31;GL-BPV-0078
+Mussidan Barriere;Pleine voie;2;9;A0089;24;GL-BPV-0079
+Mussidan Est;Echangeur;2;4;24A908915CD;24;GL-ECH-0457
+Mussidan Sud;Echangeur;2;5;24A908910CD;24;GL-ECH-0458
+Myennes;Pleine voie;2;10;A0077;58;GL-BPV-0080
+Nailloux;Echangeur;2;5;31A906605CD;31;GL-ECH-0459
+Nangy;Pleine voie;2;17;A0040;74;GL-BPV-0081
+Narbonne Est;Echangeur;2;10;11A900905CD;11;GL-ECH-0460
+Narbonne Sud;Echangeur;2;8;11A900910CD;11;GL-ECH-0461
+Necy Est;Echangeur;1;2;A0088;61;GL-ECH-0462
+Necy Ouest;Echangeur;1;2;A0088;61;GL-ECH-0463
+Nemours;Echangeur;2;6;77A900620CD;77;GL-ECH-0464
+Neufchatel-Hardelot Entree;Echangeur;1;1;62A901609CD;62;GL-ECH-0465
+Neufchatel-Hardelot Sortie;Echangeur;1;3;62A901609CD;62;GL-ECH-0465
+Neuille Pont Pierre Sens 1;Echangeur;1;2;37A902805CD;37;GL-ECH-0466
+Neuille Pont Pierre Sens 2;Echangeur;1;2;37A902805CD;37;GL-ECH-0466
+Nimes Ouest;Echangeur;2;13;30A905405CD;30;GL-ECH-0469
+Niort Est;Echangeur;2;6;79A908310CD;79;GL-ECH-0470
+Niort Nord;Echangeur;2;4;79A908305CD;79;GL-ECH-0471
+Niort Ouest;Echangeur;2;5;85A908340CD;85;GL-ECH-0472
+Niort Sud;Echangeur;2;8;79A901020CD;79;GL-ECH-0473
+Nitry;Echangeur;2;4;89A900630CD;89;GL-ECH-0474
+Nîmes Centre;Echangeur;2;8;30A905410CD;30;GL-ECH-0467
+Nîmes Est;Echangeur;2;8;30A900915CD;30;GL-ECH-0468
+Noeux-les-Mines Entree;Echangeur;1;2;62A902630CD;62;GL-ECH-0475
+Noeux-les-Mines Sortie;Echangeur;1;3;62A902630CD;62;GL-ECH-0475
+Noiretable;Echangeur;2;4;42A908905CD;42;GL-ECH-0476
+Nuits-St-Georges;Echangeur;2;5;21A903105CD;21;GL-ECH-0477
+Olivet;Echangeur;2;8;45A907110CD;45;GL-ECH-0478
+Ondres E;Echangeur;1;3;40A906365CD;40;GL-ECH-0479
+Ondres S;Echangeur;1;3;40A906365CD;40;GL-ECH-0480
+Orange Centre;Echangeur;2;7;84A900715CD;84;GL-ECH-0481
+Orange Nord;Echangeur;2;5;84A900710CD;84;GL-ECH-0482
+Orange Sud;Echangeur;2;6;84A900720CD;84;GL-ECH-0483
+Orbec 1;Echangeur;2;2;27A902805CD;27;GL-ECH-0484
+Orbec 2;Echangeur;2;2;27A902805CD;27;GL-ECH-0485
+Orleans-Centre;Echangeur;2;8;45A907105CD;45;GL-ECH-0486
+Orleans-Nord;Echangeur;2;9;45A901010CD;45;GL-ECH-0487
+Ormes BPV Entree Sens 1;Pleine voie;1;5;A0026;51;GL-BPV-0084
+Ormes BPV Sortie Sens 2;Pleine voie;1;11;A0026;51;GL-BPV-0084
+Orthez;Echangeur;2;5;64A906440CD;64;GL-ECH-0488
+Pamiers;Pleine voie;2;10;A0066;09;GL-BPV-0085
+Parigne L'Eveque;Echangeur;2;5;72A902815CD;72;GL-ECH-0489
+Pas De Trets;Echangeur;3;9;13A905205CD;13;GL-ECH-0490
+Pau Centre;Echangeur;2;10;64A906460CD;64;GL-ECH-0491
+PEAGE PONT NORMANDIE;Pleine voie;2;10;N1029;76;GL-BPV-0088
+PEAGE PONT TANCARVILLE;Pleine voie;2;12;N0182;27;GL-BPV-0089
+Perouges;Echangeur;2;8;01A904235CD;01;GL-ECH-0492
+Perpignan Nord;Echangeur;2;9;66A900905CD;66;GL-ECH-0493
+Perpignan Sud;Echangeur;2;9;66A900910CD;66;GL-ECH-0494
+Pertuis Nord;Echangeur;2;4;13A905125CD;13;GL-ECH-0495
+Pertuis Sud;Echangeur;2;4;13A905125CD;13;GL-ECH-0496
+Peyrehorade;Echangeur;2;6;40A906405CD;40;GL-ECH-0497
+Peyruis;Echangeur;2;5;04A905115CD;04;GL-ECH-0498
+Phalsbourg Entree;Echangeur;1;3;57A900460CD;57;GL-ECH-0499
+Phalsbourg Sortie;Echangeur;1;6;57A900460CD;57;GL-ECH-0499
+Plateau Entree Sens 1;Echangeur;1;2;62A901612CD;62;GL-ECH-0500
+Plateau Sortie Sens 2;Echangeur;1;2;62A901612CD;62;GL-ECH-0500
+Podensac;Echangeur;2;5;33A906205CD;33;GL-ECH-0501
+Poitiers-Nord;Echangeur;2;8;86A901020CD;86;GL-ECH-0502
+Poitiers-Sud;Echangeur;2;10;86A901025CD;86;GL-ECH-0503
+Poix-de-Picardie Entree;Echangeur;1;1;80A902905CD;80;GL-ECH-0504
+Poix-de-Picardie Sortie;Echangeur;1;2;80A902905CD;80;GL-ECH-0504
+Pons;Echangeur;2;5;17A901015CD;17;GL-ECH-0505
+Pont D'Ain;Echangeur;2;4;01A904245CD;01;GL-ECH-0506
+Pont de L'Etoile BPV;Pleine voie;2;23;A0052;13;GL-BPV-0087
+Pont-Colbert BPV;Pleine voie;1;8;A0086;78;GL-BPV-0086
+Pont-Colbert Bpv;Pleine voie;1;8;A0086;78;GL-BPV-0086
+Pontcharrat;Echangeur;2;5;38A904145CD;38;GL-ECH-0507
+Portes du Vignoble Entree;Echangeur;1;2;51A900415CD;51;GL-ECH-0508
+Portes du Vignoble Sortie;Echangeur;1;5;51A900415CD;51;GL-ECH-0508
+Pouilly-En-Auxois;Pleine voie;1;2;A0006;21;GL-BPV-0090
+Pourrières Entrée;Echangeur;1;2;83A900805CD;83;GL-ECH-0509
+Pourrières Sortie;Echangeur;1;3;83A900805CD;83;GL-ECH-0509
+Puget Ville BPV;Pleine voie;2;11;A0057;83;GL-BPV-0091
+Puget-sur-Argens;Echangeur;2;7;83A900830CD;83;GL-ECH-0510
+Puttelange Entree Sens 2;Echangeur;1;2;57A900450CD;57;GL-ECH-0511
+Puttelange Sortie Sens 1;Echangeur;1;2;57A900450CD;57;GL-ECH-0511
+Puymorens A-PO;Pleine voie;1;3;N0523;66;GL-BPV-0092
+Quetteville BPV Sens 1;Pleine voie;1;4;A0029;27;GL-BPV-0093
+Quetteville BPV Sens 2;Pleine voie;1;5;A0029;27;GL-BPV-0093
+Quincieux Barriere;Pleine voie;2;10;A0046;69;GL-BPV-0094
+Remoulins;Echangeur;2;10;30A900910CD;30;GL-ECH-0512
+Replonges;Echangeur;2;5;01A904050CD;01;GL-ECH-0513
+Ressons Entree;Echangeur;1;2;60A900130CD;60;GL-ECH-0514
+Ressons Sortie;Echangeur;1;3;60A900130CD;60;GL-ECH-0514
+Restigne Bpv;Pleine voie;2;10;A0085;37;GL-BPV-0095
+Riom;Echangeur;2;7;63A907110CD;63;GL-ECH-0515
+Rives;Echangeur;2;7;38A904805CD;38;GL-ECH-0516
+Robecourt;Echangeur;4;4;88A903105CD;88;GL-ECH-0517
+Ronai BPV;Pleine voie;2;8;A0088;61;GL-BPV-0096
+Roquemaure;Echangeur;2;5;30A900905CD;30;GL-ECH-0518
+Rouesse Fontaine;Echangeur;2;3;72A902830CD;72;GL-ECH-0519
+Roumois;Pleine voie;2;7;A0028;27;GL-BPV-0097
+Roye Entree;Echangeur;1;3;80A900105CD;80;GL-ECH-0520
+Roye Sortie;Echangeur;1;6;80A900105CD;80;GL-ECH-0520
+Rueil-Malmaison Bpv;Pleine voie;1;8;A0086;92;GL-BPV-0098
+Rumilly;Echangeur;2;5;74A904105CD;74;GL-ECH-0521
+Sable La Fleche;Echangeur;2;4;72A901135CD;72;GL-ECH-0522
+Saint Aubin;Echangeur;2;5;33A901005CD;33;GL-ECH-0556
+Saint Christophe Bpv;Pleine voie;2;11;A0028;37;GL-BPV-0105
+Saint etienne au Temple Entree;Echangeur;1;1;51A900435CD;51;GL-ECH-0559
+Saint etienne au Temple Sortie;Echangeur;1;2;51A900435CD;51;GL-ECH-0559
+Saint Exupery;Pleine voie;2;12;A0432;69;GL-BPV-0106
+Saint Gaudens;Echangeur;2;7;31A906406CD;31;GL-ECH-0560
+Saint Genis;Echangeur;2;4;01A904040CD;01;GL-ECH-0561
+Saint Genix sur Guiers;Echangeur;2;5;73A904305CD;73;GL-ECH-0562
+Saint Germain;Echangeur;2;4;49A901150CD;49;GL-ECH-0563
+Saint Germain Laval;Echangeur;2;4;42A908910CD;42;GL-ECH-0564
+Saint Germain Les Vergnes;Pleine voie;2;11;A0089;19;GL-BPV-0108
+Saint Gibrien Entree;Echangeur;1;1;51A902620CD;51;GL-ECH-0566
+Saint Gibrien Sortie;Echangeur;1;2;51A902620CD;51;GL-ECH-0566
+Saint Hilaire les Andresis;Echangeur;2;7;45A901910CD;45;GL-ECH-0567
+Saint Isidore BPV Nord;Pleine voie;1;9;A0008;06;GL-BPV-0109
+Saint Isidore BPV Sud;Pleine voie;1;9;A0008;06;GL-BPV-0110
+Saint Isidore Ech Est Entrée;Echangeur;1;5;06A900839CD;06;GL-ECH-0568
+Saint Isidore Ech Est Sortie;Echangeur;1;5;06A900839CD;06;GL-ECH-0568
+Saint Isidore Ech Ouest Entrée;Echangeur;1;3;06A900839CD;06;GL-ECH-0569
+Saint Isidore Ech Ouest Sortie;Echangeur;1;5;06A900839CD;06;GL-ECH-0569
+Saint Jean D'Angely;Echangeur;2;5;17A901005CD;17;GL-ECH-0570
+Saint Jean De Linieres Sens 1;Echangeur;1;2;49A901145CD;49;GL-ECH-0571
+Saint Jean De Linieres Sens 2;Echangeur;1;2;49A901145CD;49;GL-ECH-0571
+Saint Jean De Luz Sud E;Echangeur;1;4;64A906330CD;64;GL-ECH-0572
+Saint Jean De Luz Sud S;Echangeur;1;4;64A906330CD;64;GL-ECH-0573
+Saint Jean les Deux Jumeaux Entree;Echangeur;1;3;77A900455CD;77;GL-ECH-0574
+Saint Jean les Deux Jumeaux Sortie;Echangeur;1;3;77A900455CD;77;GL-ECH-0574
+Saint Jory;Echangeur;2;12;31A906210CD;31;GL-ECH-0575
+Saint Julien Sancy;Echangeur;2;8;63A908905CD;63;GL-ECH-0577
+Saint Marcellin;Echangeur;2;5;38A904915CD;38;GL-ECH-0578
+Saint Martin de Bellevue A410;Pleine voie;2;13;A0410;74;GL-BPV-0111
+Saint Martin De Crau;Pleine voie;2;19;A0054;13;GL-BPV-0112
+Saint Maurice;Pleine voie;2;15;A0036;25;GL-BPV-0113
+Saint Maximin;Echangeur;2;5;83A900810CD;83;GL-ECH-0580
+Saint Paul Lez Durance;Echangeur;2;6;13A905130CD;13;GL-ECH-0583
+Saint Pierre d'Albigny;Echangeur;2;4;73A904335CD;73;GL-ECH-0584
+Saint Quentin Fallavier Barriere;Pleine voie;2;31;A0043;38;GL-BPV-0115
+Saint Quentin Fallavier Bretelle;Echangeur;2;5;38A904310CD;38;GL-ECH-0586
+Saint Quentin La Vallee Entree;Echangeur;1;2;02A902605CD;02;GL-ECH-0587
+Saint Quentin La Vallee Sortie;Echangeur;1;3;02A902605CD;02;GL-ECH-0587
+Saint Romain de Colbosc (ferme) Entree;Echangeur;1;2;76A902915CD;76;GL-ECH-0588
+Saint Romain de Colbosc (ferme) Sortie;Echangeur;1;3;76A902915CD;76;GL-ECH-0588
+Saint Romain de Colbosc (ouvert) Entree;Echangeur;1;4;76A902915CD;76;GL-ECH-0589
+Saint Romain de Colbosc (ouvert) Sortie;Echangeur;1;3;76A902915CD;76;GL-ECH-0589
+Saint Romain De Popey;Pleine voie;2;14;A0089;69;GL-BPV-0116
+Saint Romain Sur Cher;Echangeur;2;5;41A908505CD;41;GL-ECH-0590
+Saint Selve;Pleine voie;2;21;A0062;33;GL-BPV-0117
+Saint Thibault;Echangeur;2;6;10A900510CD;10;GL-ECH-0591
+Saint Witz Entree;Echangeur;1;4;95A900115CD;95;GL-ECH-0592
+Saint Witz Sortie;Echangeur;1;4;95A900115CD;95;GL-ECH-0592
+Saint-Arnoult Bpv;Pleine voie;2;30;A0010;78;GL-BPV-0103
+Saint-Avold A BPV Sens 1;Pleine voie;1;9;A0004;57;GL-BPV-0104
+Saint-Avold A BPV Sens 2;Pleine voie;1;9;A0004;57;GL-BPV-0104
+Saint-Avold B Entree;Echangeur;1;4;57A900435CD;57;GL-ECH-0557
+Saint-Avold B Sortie;Echangeur;1;4;57A900435CD;57;GL-ECH-0557
+Sainte Helene Barriere;Pleine voie;2;17;A0430;73;GL-BPV-0118
+Sainte Hermine;Echangeur;2;7;85A908325CD;85;GL-ECH-0593
+Sainte Marie Entree;Echangeur;1;3;57A900405CD;57;GL-ECH-0594
+Sainte Marie Sortie;Echangeur;1;3;57A900405CD;57;GL-ECH-0594
+Sainte Maure;Echangeur;2;5;37A901060CD;37;GL-ECH-0596
+Sainte Menehould Entree;Echangeur;1;1;51A900440CD;51;GL-ECH-0597
+Sainte Menehould Sortie;Echangeur;1;2;51A900440CD;51;GL-ECH-0597
+Saintes;Echangeur;2;10;17A901010CD;17;GL-ECH-0523
+Salbris;Echangeur;2;5;41A907110CD;41;GL-ECH-0524
+Salies;Echangeur;2;4;64A906435CD;64;GL-ECH-0525
+Salon Nord (entree);Echangeur;1;2;13A900715CD;13;GL-ECH-0526
+Salon Nord (sortie);Echangeur;1;3;13A900715CD;13;GL-ECH-0526
+Salon Ouest;Echangeur;2;6;13A905410CD;13;GL-ECH-0527
+Salon Sud;Echangeur;2;7;13A905420CD;13;GL-ECH-0528
+Salouel Entree;Echangeur;1;1;80A901615CD;80;GL-ECH-0529
+Salouel Sortie;Echangeur;1;3;80A901615CD;80;GL-ECH-0529
+Sames;Pleine voie;2;13;A0064;64;GL-BPV-0099
+Santerre Entree;Echangeur;1;1;80A902940CD;80;GL-ECH-0530
+Santerre Sortie;Echangeur;1;3;80A902940CD;80;GL-ECH-0530
+Sarre-Union Entree;Echangeur;1;2;67A900405CD;67;GL-ECH-0531
+Sarre-Union Sortie;Echangeur;1;4;67A900405CD;67;GL-ECH-0531
+Sarreguemines Entree;Echangeur;1;2;57A900455CD;57;GL-ECH-0532
+Sarreguemines Sortie;Echangeur;1;5;57A900455CD;57;GL-ECH-0532
+Saverne Entree;Echangeur;1;3;67A900410CD;67;GL-ECH-0533
+Saverne Sortie;Echangeur;1;5;67A900410CD;67;GL-ECH-0533
+Savigny sur Clairis;Echangeur;2;5;45A901905CD;45;GL-ECH-0534
+Schwindratzheim BPV Sens 1;Pleine voie;1;9;A0004;67;GL-BPV-0100
+Schwindratzheim BPV Sens 2;Pleine voie;1;5;A0004;67;GL-BPV-0100
+Scionzier Entrée;Echangeur;1;3;74A904020CD;74;GL-ECH-0535
+Scionzier Sortie;Echangeur;1;3;74A904020CD;74;GL-ECH-0535
+Sees Argentan 1;Echangeur;2;5;61A902810CD;61;GL-ECH-0536
+Sees Est;Echangeur;1;2;A0088;61;GL-ECH-0537
+Sees Ouest;Echangeur;1;2;A0088;61;GL-ECH-0538
+Seiches sur le Loir;Echangeur;2;4;49A901110CD;49;GL-ECH-0539
+Senas;Echangeur;2;8;13A900710CD;13;GL-ECH-0540
+Senlis-Bonsecours Entree;Echangeur;1;5;60A900110CD;60;GL-ECH-0541
+Senlis-Bonsecours Sortie;Echangeur;1;6;60A900110CD;60;GL-ECH-0541
+Senlis-Chamant Entree;Echangeur;1;2;60A900115CD;60;GL-ECH-0542
+Senlis-Chamant Sortie;Echangeur;1;3;60A900115CD;60;GL-ECH-0542
+Sete;Echangeur;2;11;34A900910CD;34;GL-ECH-0543
+Setques BPV Entree Sens 1;Pleine voie;1;3;A0026;62;GL-BPV-0101
+Setques BPV Sortie Sens 2;Pleine voie;1;6;A0026;62;GL-BPV-0101
+Seurre;Echangeur;2;3;21A903610CD;21;GL-ECH-0544
+Seynod Sud;Echangeur;2;6;74A904110CD;74;GL-ECH-0545
+Sigean;Echangeur;2;5;11A900920CD;11;GL-ECH-0546
+Sisteron Nord;Echangeur;2;8;04A905130CD;04;GL-ECH-0547
+Sisteron Sud;Echangeur;2;4;04A905125CD;04;GL-ECH-0548
+Soirans;Echangeur;2;5;21A903920CD;21;GL-ECH-0549
+Sommesous Entree;Echangeur;1;2;51A902635CD;51;GL-ECH-0550
+Sommesous Sortie;Echangeur;1;2;51A902635CD;51;GL-ECH-0550
+Sophia;Echangeur;1;5;06A900815CD;06;GL-ECH-0551
+Sorigny Bpv;Pleine voie;2;21;A0010;37;GL-BPV-0102
+Soudan;Echangeur;2;5;79A901005CD;79;GL-ECH-0552
+Souillac;Echangeur;2;5;46A902010CD;46;GL-ECH-0553
+Soumoulou;Echangeur;2;7;64A906465CD;64;GL-ECH-0554
+St Amand-Montrond;Echangeur;2;4;18A907120CD;18;GL-ECH-0555
+St Julien Mont Denis;Echangeur;2;4;73A904365CD;73;GL-ECH-0576
+St Martin-Du-Fresne;Echangeur;2;4;01A904015CD;01;GL-ECH-0579
+St Michel amont;Echangeur;2;4;73A904370CD;73;GL-ECH-0581
+St Michel Barriere;Pleine voie;2;9;A0043;73;GL-BPV-0114
+St Michel Echangeur;Echangeur;2;5;73A904370CD;73;GL-ECH-0582
+St Pierre de Belleville;Echangeur;2;4;73A904350CD;73;GL-ECH-0585
+St-Denis-Les-Sens;Echangeur;2;8;89A901905CD;89;GL-ECH-0558
+St-Germain-Laxis;Echangeur;2;6;77A900510CD;77;GL-ECH-0565
+Ste Marie de Cuines;Echangeur;2;5;73A904355CD;73;GL-ECH-0595
+Sylans;Echangeur;2;5;01A904010CD;01;GL-ECH-0598
+Tain;Echangeur;2;7;26A900705CD;26;GL-ECH-0599
+Taissy BPV Entree Sens 1;Pleine voie;1;4;A0034;51;GL-BPV-0121
+Taissy BPV Sortie Sens 2;Pleine voie;1;7;A0034;51;GL-BPV-0121
+Tarare Est Ferme;Echangeur;2;4;69A908910CD;69;GL-ECH-0600
+Tarare Est ouvert E;Echangeur;1;3;69A908910CD;69;GL-ECH-0601
+Tarare Est ouvert S;Echangeur;1;3;69A908910CD;69;GL-ECH-0602
+Tarare Ouest;Echangeur;2;5;69A908905CD;69;GL-ECH-0603
+Tarbes Est;Echangeur;2;8;65A906410CD;65;GL-ECH-0604
+Tarbes Ouest;Echangeur;2;7;65A906405CD;65;GL-ECH-0605
+Terrasson E;Echangeur;1;2;19A908905CD;19;GL-ECH-0606
+Terrasson S;Echangeur;1;2;19A908905CD;19;GL-ECH-0607
+Thelus Entree;Echangeur;1;2;62A902640CD;62;GL-ECH-0608
+Thelus Sortie;Echangeur;1;4;62A902640CD;62;GL-ECH-0608
+Thennelieres;Echangeur;2;4;10A902615CD;10;GL-ECH-0609
+Thenon Est E;Echangeur;1;2;24A908935CD;24;GL-ECH-0610
+Thenon Est S;Echangeur;1;2;24A908935CD;24;GL-ECH-0611
+Thenon vers Brives;Pleine voie;1;6;A0089;24;GL-BPV-0122
+Thenon vers Perigueux;Pleine voie;1;6;A0089;24;GL-BPV-0123
+Therouanne Entree;Echangeur;1;2;62A902615CD;62;GL-ECH-0612
+Therouanne Sortie;Echangeur;1;3;62A902615CD;62;GL-ECH-0612
+Thiers Est;Echangeur;2;4;63A908940CD;63;GL-ECH-0613
+Thiers Ouest;Echangeur;2;5;63A908935CD;63;GL-ECH-0614
+Thillois BPV Entree Sens 1;Pleine voie;1;3;A0344;51;GL-BPV-0124
+Thillois BPV Sortie Sens 2;Pleine voie;1;5;A0344;51;GL-BPV-0124
+Thivars Nord Sens 1;Echangeur;2;5;28A901110CD;28;GL-ECH-0615
+Thivars Sud Sens 2;Echangeur;2;4;28A901110CD;28;GL-ECH-0616
+Thouarce E;Echangeur;1;2;49A908715CD;49;GL-ECH-0617
+Thouarce S;Echangeur;1;2;49A908715CD;49;GL-ECH-0618
+Tilchatel;Echangeur;2;4;21A903120CD;21;GL-ECH-0619
+Tonnay-Charente E;Echangeur;1;5;17A983715CD;17;GL-ECH-0620
+Tonnay-Charente S;Echangeur;1;5;17A983715CD;17;GL-ECH-0621
+Torvilliers;Echangeur;2;5;10A900505CD;10;GL-ECH-0622
+Toulouse Est vers Albi;Pleine voie;1;9;A0068;31;GL-BPV-0125
+Toulouse Est vers Toulouse;Pleine voie;1;9;A0068;31;GL-BPV-0126
+Toulouse Nord Ouest;Pleine voie;2;19;A0062;31;GL-BPV-0127
+Toulouse Sud Est;Pleine voie;2;18;A0061;31;GL-BPV-0128
+Tournay;Echangeur;2;4;65A906415CD;65;GL-ECH-0623
+Tournus;Echangeur;2;5;71A900615CD;71;GL-ECH-0624
+Tours Nord;Echangeur;2;6;37A901015CD;37;GL-ECH-0625
+Toutainville Entree;Echangeur;1;2;27A901347CD;27;GL-ECH-0626
+Toutainville Sortie;Echangeur;1;2;27A901347CD;27;GL-ECH-0626
+Troarn Entree;Echangeur;1;2;14A901320CD;14;GL-ECH-0627
+Troarn Sortie;Echangeur;1;2;14A901320CD;14;GL-ECH-0627
+Tulle Est;Echangeur;2;6;19A908935CD;19;GL-ECH-0628
+Tulle Nord;Echangeur;2;5;19A908930CD;19;GL-ECH-0629
+Tullins;Echangeur;2;5;38A904905CD;38;GL-ECH-0630
+Ury;Echangeur;2;5;77A900610CD;77;GL-ECH-0631
+Ussel Est;Echangeur;2;4;19A908950CD;19;GL-ECH-0632
+Ussel Ouest;Echangeur;2;4;19A908945CD;19;GL-ECH-0633
+Vaiges;Echangeur;2;4;53A908105CD;53;GL-ECH-0634
+Val De Loing-Souppes;Echangeur;2;6;77A907705CD;77;GL-ECH-0635
+Val De Saone;Pleine voie;2;5;A0406;71;GL-BPV-0129
+Valence D'Agen;Echangeur;2;4;82A906205CD;82;GL-ECH-0636
+Valence Nord;Echangeur;2;7;26A900710CD;26;GL-ECH-0637
+Valence Sud;Echangeur;2;16;26A900715CD;26;GL-ECH-0638
+Vallee de l'Aisne Entree;Echangeur;1;1;02A902630CD;02;GL-ECH-0639
+Vallee de l'Aisne Sortie;Echangeur;1;2;02A902630CD;02;GL-ECH-0639
+Vallee de l'Aube Entree;Echangeur;1;1;10A902605CD;10;GL-ECH-0640
+Vallee de l'Aube Sortie;Echangeur;1;3;10A902605CD;10;GL-ECH-0640
+Vallee de la Hem Entree Sens 1;Echangeur;1;2;62A902605CD;62;GL-ECH-0641
+Vallee de la Hem Entree Sens 2;Echangeur;1;2;62A902605CD;62;GL-ECH-0641
+Vallee de la Hem Sortie Sens 1;Echangeur;1;2;62A902605CD;62;GL-ECH-0641
+Vallee de la Hem Sortie Sens 2;Echangeur;1;2;62A902605CD;62;GL-ECH-0641
+Vallee de la Somme Entree;Echangeur;1;2;80A900115CD;80;GL-ECH-0642
+Vallee de la Somme Sortie;Echangeur;1;3;80A900115CD;80;GL-ECH-0642
+Vatry Entree;Echangeur;1;2;51A902630CD;51;GL-ECH-0643
+Vatry Sortie;Echangeur;1;3;51A902630CD;51;GL-ECH-0643
+Vaucresson Le Chesnay BPV;Pleine voie;1;9;A0086;92;GL-BPV-0130
+Vaucresson Le Chesnay Bpv;Pleine voie;1;9;A0086;92;GL-BPV-0130
+Veauchette;Pleine voie;2;18;A0072;42;GL-BPV-0131
+Veigne Bpv;Pleine voie;2;11;A0085;37;GL-BPV-0132
+Verdun Entree;Echangeur;1;1;55A900415CD;55;GL-ECH-0644
+Verdun Sortie;Echangeur;1;2;55A900415CD;55;GL-ECH-0644
+Vichy;Pleine voie;2;6;A0719;03;GL-BPV-0133
+Vieilleville Nord;Echangeur;1;4;44A901110CD;44;GL-ECH-0645
+Vieilleville Sud;Echangeur;1;4;44A901110CD;44;GL-ECH-0646
+Vienne;Pleine voie;2;43;A0007;38;GL-BPV-0134
+Vierzon Est;Echangeur;2;5;18A907110CD;18;GL-ECH-0647
+Vierzon Nord;Echangeur;2;16;18A907105CD;18;GL-ECH-0648
+Ville Sous Laferte;Echangeur;2;4;10A900525CD;10;GL-ECH-0649
+Villefontaine;Echangeur;2;7;38A904315CD;38;GL-ECH-0650
+Villefranche de Lauraguais;Echangeur;2;8;31A906150CD;31;GL-ECH-0651
+Villefranche Nord;Echangeur;2;6;69A900610CD;69;GL-ECH-0652
+Villefranche Sur Cher;Echangeur;2;4;41A908515CD;41;GL-ECH-0653
+Villefranche-Limas;Pleine voie;2;34;A0006;69;GL-BPV-0135
+Villefranche-Ville;Echangeur;4;14;69A900615CD;69;GL-ECH-0654
+Villeneuve-Dondagre;Echangeur;2;4;89A901910CD;89;GL-ECH-0655
+Villers Bretonneux Entree;Echangeur;1;1;80A902935CD;80;GL-ECH-0656
+Villers Bretonneux Sortie;Echangeur;1;2;80A902935CD;80;GL-ECH-0656
+Vinay;Echangeur;2;5;38A904910CD;38;GL-ECH-0657
+Viriat;Echangeur;2;5;01A904030CD;01;GL-ECH-0658
+Virsac;Pleine voie;2;26;A0010;33;GL-BPV-0136
+Viry;Pleine voie;2;20;A0040;74;GL-BPV-0137
+Vivy;Echangeur;2;6;49A908520CD;49;GL-ECH-0659
+Voie Sacree Entree;Echangeur;1;1;55A900410CD;55;GL-ECH-0660
+Voie Sacree Sortie;Echangeur;1;3;55A900410CD;55;GL-ECH-0660
+Voiron (Champfeuillet);Echangeur;2;8;38A904810CD;38;GL-ECH-0661
+Voreppe Barriere;Pleine voie;2;22;A0048;38;GL-BPV-0138
+Vouille;Echangeur;2;5;79A901015CD;79;GL-ECH-0662
+Vulaines;Echangeur;2;4;89A900510CD;89;GL-ECH-0663
+Vulcania Bromont;Echangeur;2;5;63A908910CD;63;GL-ECH-0664
+Yerville Entree;Echangeur;1;3;76A902930CD;76;GL-ECH-0665
+Yerville Sortie;Echangeur;1;4;76A902930CD;76;GL-ECH-0665
+Yvetot Entree;Echangeur;1;3;76A915010CD;76;GL-ECH-0666
+Yvetot Sortie;Echangeur;1;5;76A915010CD;76;GL-ECH-0666
